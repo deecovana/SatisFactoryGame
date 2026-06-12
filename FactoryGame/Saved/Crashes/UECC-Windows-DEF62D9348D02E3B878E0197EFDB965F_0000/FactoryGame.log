@@ -1,0 +1,1780 @@
+Project file not found: C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/FactoryGame.uproject
+	Attempting to find via project info helper.
+Initializing PakPlatformFile
+Reading toc: ../../../FactoryGame/Content/Paks/global.utoc
+Toc loaded : ../../../FactoryGame/Content/Paks/global.utoc, Id=ffffffffffffffff, Order=0, EntryCount=1, SignatureHash=8E033094D165D37223BC9D46DF0D6D71DF85DB0A
+Mounting container '../../../FactoryGame/Content/Paks/global.utoc' in location slot 0
+Initialized I/O dispatcher file backend. Mounted the global container: ../../../FactoryGame/Content/Paks/global.utoc
+Found Pak file ../../../FactoryGame/Content/Paks/FactoryGame-Windows.pak attempting to mount.
+Mounting pak file ../../../FactoryGame/Content/Paks/FactoryGame-Windows.pak.
+Reading toc: ../../../FactoryGame/Content/Paks/FactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Content/Paks/FactoryGame-Windows.utoc, Id=52f27a6f7471235e, Order=4, EntryCount=59243, SignatureHash=5ED7FE8540FF1E6B609002412F9BCA7F7C7E9497
+Mounting container '../../../FactoryGame/Content/Paks/FactoryGame-Windows.utoc' in location slot 0
+Mounted IoStore container "../../../FactoryGame/Content/Paks/FactoryGame-Windows.utoc"
+Mounting container: Id=52f27a6f7471235e, Order=4, NumPackages=28225
+Mounted Pak file '../../../FactoryGame/Content/Paks/FactoryGame-Windows.pak', mount point: '../../../'
+ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-DEF62D9348D02E3B878E0197EFDB965F
+         Session CrashGUID >====================================================
+Attached monitors:
+    resolution: 1600x1000, work area: (0, 0) -> (1600, 952), device: '\\.\DISPLAY1' [PRIMARY]
+Found 1 attached monitors.
+Gathering driver information using Windows Setup API
+Using compiled CustomConfig Steam
+Premade AssetRegistry loaded from '../../../FactoryGame/AssetRegistry.bin'
+No local boot hotfix file found at: [C:/Users/cheva/AppData/Local/FactoryGame/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+Pre-Initializing Audio Device Manager...
+AudioInfo: 'OPUS' Registered
+Lib vorbis DLL was dynamically loaded.
+AudioInfo: 'OGG' Registered
+AudioInfo: 'ADPCM' Registered
+AudioInfo: 'PCM' Registered
+AudioInfo: 'BINKA' Registered
+AudioInfo: 'RADA' Registered
+Audio Device Manager Pre-Initialized
+Mounting Engine plugin Paper2D
+Mounting Engine plugin AISupport
+Mounting Engine plugin EnvironmentQueryEditor
+Mounting Engine plugin ACLPlugin
+Mounting Engine plugin AnimationData
+Mounting Engine plugin AnimationLocomotionLibrary
+Mounting Engine plugin AnimationModifierLibrary
+Mounting Engine plugin AnimationWarping
+Mounting Engine plugin ControlRigModules
+Mounting Engine plugin ControlRigSpline
+Mounting Engine plugin ControlRig
+Mounting Engine plugin DeformerGraph
+Mounting Engine plugin IKRig
+Mounting Engine plugin SkeletalMeshModelingTools
+Mounting Engine plugin TweeningUtils
+Mounting Engine plugin CSLocTools
+Mounting Engine plugin CameraShakePreviewer
+Mounting Engine plugin EngineCameras
+Mounting Engine plugin GameplayCameras
+Mounting Engine plugin ChaosClothAsset
+Mounting Engine plugin ChaosCloth
+Mounting Engine plugin ChaosVD
+Mounting Engine plugin LensDistortion
+Mounting Engine plugin OpenColorIO
+Mounting Engine plugin OodleNetwork
+Mounting Engine plugin AnimationSharing
+Mounting Engine plugin ConcertMain
+Mounting Engine plugin ConcertSyncClient
+Mounting Engine plugin ConcertSyncCore
+Mounting Engine plugin ConcertSharedSlate
+Mounting Engine plugin NamingTokens
+Mounting Engine plugin PluginUtils
+Mounting Engine plugin UObjectPlugin
+Mounting Engine plugin AssetManagerEditor
+Mounting Engine plugin AssetReferenceRestrictions
+Mounting Engine plugin BlueprintHeaderView
+Mounting Engine plugin BlueprintMaterialTextureNodes
+Mounting Engine plugin ColorGrading
+Mounting Engine plugin ConsoleVariables
+Mounting Engine plugin ContentBrowserAssetDataSource
+Mounting Engine plugin CurveEditorTools
+Mounting Engine plugin DataValidation
+Mounting Engine plugin EditorScriptingUtilities
+Mounting Engine plugin EngineAssetDefinitions
+Mounting Engine plugin FacialAnimation
+Mounting Engine plugin GameplayTagsEditor
+Mounting Engine plugin GeometryMode
+Mounting Engine plugin LightMixer
+Mounting Engine plugin ObjectMixer
+Mounting Engine plugin ProxyLODPlugin
+Mounting Engine plugin ScriptableToolsEditorMode
+Mounting Engine plugin SequencerAnimTools
+Mounting Engine plugin SpeedTreeImporter
+Mounting Engine plugin UMGWidgetPreview
+Mounting Engine plugin UVEditor
+Mounting Engine plugin EnhancedInput
+Mounting Engine plugin DatasmithContent
+Mounting Engine plugin GLTFExporter
+Mounting Engine plugin VariantManagerContent
+Mounting Engine plugin VariantManager
+Mounting Engine plugin AsyncMessageSystem
+Mounting Engine plugin AutomationUtils
+Mounting Engine plugin BackChannel
+Mounting Engine plugin BlueprintStats
+Mounting Engine plugin ChaosCaching
+Mounting Engine plugin ChaosEditor
+Mounting Engine plugin ChaosNiagara
+Mounting Engine plugin ChaosSolverPlugin
+Mounting Engine plugin ChaosUserDataPT
+Mounting Engine plugin ChaosVehiclesPlugin
+Mounting Engine plugin CharacterAI
+Mounting Engine plugin CompositeCore
+Mounting Engine plugin ControlFlows
+Mounting Engine plugin Dataflow
+Mounting Engine plugin EditorDataStorageFeatures
+Mounting Engine plugin EditorDataStorage
+Mounting Engine plugin Fracture
+Mounting Engine plugin FullBodyIK
+Mounting Engine plugin Gauntlet
+Mounting Engine plugin GeometryCollectionPlugin
+Mounting Engine plugin GeometryDataflow
+Mounting Engine plugin Landmass
+Mounting Engine plugin LevelSequenceNavigatorBridge
+Mounting Engine plugin LocalizableMessage
+Mounting Engine plugin MeshModelingToolsetExp
+Mounting Engine plugin NFORDenoise
+Mounting Engine plugin PlanarCut
+Mounting Engine plugin PlatformCrypto
+Mounting Engine plugin PythonScriptPlugin
+Mounting Engine plugin RuntimeTelemetry
+Mounting Engine plugin SlateIM
+Mounting Engine plugin ToolPresets
+Mounting Engine plugin CascadeToNiagaraConverter
+Mounting Engine plugin Cascade
+Mounting Engine plugin NiagaraSimCaching
+Mounting Engine plugin Niagara
+Mounting Engine plugin Fab
+Mounting Engine plugin AlembicImporter
+Mounting Engine plugin InterchangeAssets
+Mounting Engine plugin InterchangeEditor
+Mounting Engine plugin Interchange
+Mounting Engine plugin AppleProResMedia
+Mounting Engine plugin ImgMedia
+Mounting Engine plugin MediaCompositing
+Mounting Engine plugin MediaPlate
+Mounting Engine plugin MfMedia
+Mounting Engine plugin WebMMedia
+Mounting Engine plugin WmfMedia
+Mounting Engine plugin MeshPainting
+Mounting Engine plugin TcpMessaging
+Mounting Engine plugin UdpMessaging
+Mounting Engine plugin ActorSequence
+Mounting Engine plugin LevelSequenceEditor
+Mounting Engine plugin MovieRenderPipeline
+Mounting Engine plugin SequencerScripting
+Mounting Engine plugin TemplateSequence
+Mounting Engine plugin EOSShared
+Mounting Engine plugin OnlineBase
+Mounting Engine plugin OnlineServicesEOSGS
+Mounting Engine plugin OnlineServicesEOS
+Mounting Engine plugin OnlineServicesEpicCommon
+Mounting Engine plugin OnlineServicesNull
+Mounting Engine plugin OnlineServicesOSSAdapter
+Mounting Engine plugin OnlineServices
+Mounting Engine plugin OnlineSubsystemNull
+Mounting Engine plugin OnlineSubsystemSteam
+Mounting Engine plugin OnlineSubsystemUtils
+Mounting Engine plugin OnlineSubsystem
+Mounting Engine plugin SocketSubsystemEOS
+Mounting Engine plugin LauncherChunkInstaller
+Mounting Engine plugin ActorLayerUtilities
+Mounting Engine plugin AndroidFileServer
+Mounting Engine plugin ApexDestruction
+Mounting Engine plugin AppleImageUtils
+Mounting Engine plugin AssetTags
+Mounting Engine plugin AudioCapture
+Mounting Engine plugin AudioSynesthesia
+Mounting Engine plugin AudioWidgets
+Mounting Engine plugin CableComponent
+Mounting Engine plugin ChunkDownloader
+Mounting Engine plugin ComputeFramework
+Mounting Engine plugin CustomMeshComponent
+Mounting Engine plugin DataRegistry
+Mounting Engine plugin SQLiteCore
+Mounting Engine plugin ExampleDeviceProfileSelector
+Mounting Engine plugin GameFeatures
+Mounting Engine plugin GeometryCache
+Mounting Engine plugin GeometryProcessing
+Mounting Engine plugin GeometryScripting
+Mounting Engine plugin GooglePAD
+Mounting Engine plugin HairStrands
+Mounting Engine plugin MeshModelingToolset
+Mounting Engine plugin Metasound
+Mounting Engine plugin ModelViewViewModel
+Mounting Engine plugin ModularGameplay
+Mounting Engine plugin MsQuic
+Mounting Engine plugin DTLSHandlerComponent
+Mounting Engine plugin ProceduralMeshComponent
+Mounting Engine plugin PropertyAccessEditor
+Mounting Engine plugin PropertyBindingUtils
+Mounting Engine plugin ReplicationGraph
+Mounting Engine plugin ResonanceAudio
+Mounting Engine plugin RigVM
+Mounting Engine plugin ScriptableToolsFramework
+Mounting Engine plugin SignificanceManager
+Mounting Engine plugin SoundFields
+Mounting Engine plugin StateTree
+Mounting Engine plugin SteamController
+Mounting Engine plugin SteamShared
+Mounting Engine plugin SteamSockets
+Mounting Engine plugin Synthesis
+Mounting Engine plugin WaveTable
+Mounting Engine plugin WebMMoviePlayer
+Mounting Engine plugin WindowsDeviceProfileSelector
+Mounting Engine plugin WindowsMoviePlayer
+Mounting Engine plugin WinDualShock
+Mounting Engine plugin XInputDevice
+Mounting Engine plugin EditorTests
+Mounting Engine plugin FbxAutomationTestBuilder
+Mounting Engine plugin FunctionalTestingEditor
+Mounting Engine plugin InterchangeTests
+Mounting Engine plugin RuntimeTests
+Mounting Engine plugin TestFramework
+Mounting Engine plugin TraceUtilities
+Mounting Engine plugin CameraCalibrationCore
+Mounting Engine plugin Takes
+Mounting Engine plugin WorldMetrics
+Mounting Engine plugin WwiseNiagara
+Mounting Engine plugin Wwise
+Mounting Project plugin AbstractInstance
+Mounting Project plugin DLSS
+Mounting Project plugin EditorTools
+Mounting Project plugin FSR3
+Mounting Project plugin GameplayEvents
+Mounting Project plugin OnlineIntegration
+Mounting Project plugin OnlineServicesSteamLimited
+Mounting Project plugin RainRendering
+Mounting Project plugin ReliableMessaging
+Mounting Project plugin Sentry
+Mounting Project plugin SignificanceISPC
+Mounting Project plugin SteamDeckConfig
+Mounting Project plugin StreamlineCore
+Mounting Project plugin StreamlineDLSSG
+Mounting Project plugin StreamlineDeepDVC
+Mounting Project plugin StreamlineReflex
+Mounting Project plugin Streamline
+Mounting Project plugin XeSS
+Mounting Mod plugin AdvancedLogistics
+Mounting Mod plugin ContainerWithScreen
+Mounting Mod plugin ContainerScreen
+Mounting Mod plugin DaisyChainPowerCables
+Mounting Mod plugin DeepMining
+Mounting Mod plugin FasterManualCraftingRedux
+Mounting Mod plugin FloorHole
+Mounting Mod plugin InventorySpace2
+Mounting Mod plugin MovePlayerInventory
+Mounting Mod plugin moidu21_lib
+Mounting Mod plugin MAMTips
+Mounting Mod plugin OrganizedCrates
+Mounting Mod plugin SmallAwesomeSink
+Mounting Mod plugin SML
+Mounting Mod plugin UndergroundBelts
+Mounting Mod plugin TenTimesAwesomePoints
+Mounting Mod plugin UtilityMod
+Mounting Mod plugin BlueprintHighlighted
+Mounting Mod plugin FlashlightSettings
+Mounting Mod plugin CrashSiteBeacons
+Mounting Mod plugin HighlightScannedObject
+Mounting Mod plugin InfiniteNudge
+Mounting Mod plugin InfiniteZoop
+Mounting Mod plugin NoSplash
+Mounting Mod plugin minerplus
+Mounting Mod plugin SkyUI
+Reading toc: ../../../FactoryGame/Mods/AdvancedLogistics/Content/Paks/Windows/AdvancedLogisticsFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/AdvancedLogistics/Content/Paks/Windows/AdvancedLogisticsFactoryGame-Windows.utoc, Id=3bd1f41eeccfcc51, Order=0, EntryCount=14, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/AdvancedLogistics/Content/Paks/Windows/AdvancedLogisticsFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/AdvancedLogistics/Content/Paks/Windows/AdvancedLogisticsFactoryGame-Windows.utoc"
+Mounting container: Id=3bd1f41eeccfcc51, Order=0, NumPackages=13
+Mounted Pak file '../../../FactoryGame/Mods/AdvancedLogistics/Content/Paks/Windows/AdvancedLogisticsFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/AdvancedLogistics/'
+Mount point '../../../FactoryGame/Mods/AdvancedLogistics/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/ContainerWithScreen/Content/Paks/Windows/ContainerWithScreenFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/ContainerWithScreen/Content/Paks/Windows/ContainerWithScreenFactoryGame-Windows.utoc, Id=4b5eb288afebf5a7, Order=0, EntryCount=38, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/ContainerWithScreen/Content/Paks/Windows/ContainerWithScreenFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/ContainerWithScreen/Content/Paks/Windows/ContainerWithScreenFactoryGame-Windows.utoc"
+Mounting container: Id=4b5eb288afebf5a7, Order=0, NumPackages=20
+Mounted Pak file '../../../FactoryGame/Mods/ContainerWithScreen/Content/Paks/Windows/ContainerWithScreenFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/ContainerWithScreen/'
+Mount point '../../../FactoryGame/Mods/ContainerWithScreen/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/ContainerScreen/Content/Paks/Windows/ContainerScreenFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/ContainerScreen/Content/Paks/Windows/ContainerScreenFactoryGame-Windows.utoc, Id=665b07fcf804c906, Order=0, EntryCount=69, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/ContainerScreen/Content/Paks/Windows/ContainerScreenFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/ContainerScreen/Content/Paks/Windows/ContainerScreenFactoryGame-Windows.utoc"
+Mounting container: Id=665b07fcf804c906, Order=0, NumPackages=43
+Mounted Pak file '../../../FactoryGame/Mods/ContainerScreen/Content/Paks/Windows/ContainerScreenFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/ContainerScreen/'
+Mount point '../../../FactoryGame/Mods/ContainerScreen/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/DaisyChainPowerCables/Content/Paks/Windows/DaisyChainPowerCablesFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/DaisyChainPowerCables/Content/Paks/Windows/DaisyChainPowerCablesFactoryGame-Windows.utoc, Id=96fc5f6d131f0e87, Order=0, EntryCount=72, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/DaisyChainPowerCables/Content/Paks/Windows/DaisyChainPowerCablesFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/DaisyChainPowerCables/Content/Paks/Windows/DaisyChainPowerCablesFactoryGame-Windows.utoc"
+Mounting container: Id=96fc5f6d131f0e87, Order=0, NumPackages=71
+Mounted Pak file '../../../FactoryGame/Mods/DaisyChainPowerCables/Content/Paks/Windows/DaisyChainPowerCablesFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/DaisyChainPowerCables/'
+Mount point '../../../FactoryGame/Mods/DaisyChainPowerCables/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/DeepMining/Content/Paks/Windows/DeepMiningFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/DeepMining/Content/Paks/Windows/DeepMiningFactoryGame-Windows.utoc, Id=358888508f532e48, Order=0, EntryCount=41, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/DeepMining/Content/Paks/Windows/DeepMiningFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/DeepMining/Content/Paks/Windows/DeepMiningFactoryGame-Windows.utoc"
+Mounting container: Id=358888508f532e48, Order=0, NumPackages=30
+Mounted Pak file '../../../FactoryGame/Mods/DeepMining/Content/Paks/Windows/DeepMiningFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/DeepMining/'
+Mount point '../../../FactoryGame/Mods/DeepMining/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/FasterManualCraftingRedux/Content/Paks/Windows/FasterManualCraftingReduxFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/FasterManualCraftingRedux/Content/Paks/Windows/FasterManualCraftingReduxFactoryGame-Windows.utoc, Id=e263af47724971d7, Order=0, EntryCount=5, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/FasterManualCraftingRedux/Content/Paks/Windows/FasterManualCraftingReduxFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/FasterManualCraftingRedux/Content/Paks/Windows/FasterManualCraftingReduxFactoryGame-Windows.utoc"
+Mounting container: Id=e263af47724971d7, Order=0, NumPackages=4
+Mounted Pak file '../../../FactoryGame/Mods/FasterManualCraftingRedux/Content/Paks/Windows/FasterManualCraftingReduxFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/FasterManualCraftingRedux/'
+Mount point '../../../FactoryGame/Mods/FasterManualCraftingRedux/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/FloorHole/Content/Paks/Windows/FloorHoleFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/FloorHole/Content/Paks/Windows/FloorHoleFactoryGame-Windows.utoc, Id=101fa75bd20237ae, Order=0, EntryCount=157, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/FloorHole/Content/Paks/Windows/FloorHoleFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/FloorHole/Content/Paks/Windows/FloorHoleFactoryGame-Windows.utoc"
+Mounting container: Id=101fa75bd20237ae, Order=0, NumPackages=149
+Mounted Pak file '../../../FactoryGame/Mods/FloorHole/Content/Paks/Windows/FloorHoleFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/FloorHole/'
+Mount point '../../../FactoryGame/Mods/FloorHole/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/InventorySpace2/Content/Paks/Windows/InventorySpace2FactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/InventorySpace2/Content/Paks/Windows/InventorySpace2FactoryGame-Windows.utoc, Id=1de38c878d314dac, Order=0, EntryCount=4, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/InventorySpace2/Content/Paks/Windows/InventorySpace2FactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/InventorySpace2/Content/Paks/Windows/InventorySpace2FactoryGame-Windows.utoc"
+Mounting container: Id=1de38c878d314dac, Order=0, NumPackages=3
+Mounted Pak file '../../../FactoryGame/Mods/InventorySpace2/Content/Paks/Windows/InventorySpace2FactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/InventorySpace2/'
+Mount point '../../../FactoryGame/Mods/InventorySpace2/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/MovePlayerInventory/Content/Paks/Windows/MovePlayerInventoryFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/MovePlayerInventory/Content/Paks/Windows/MovePlayerInventoryFactoryGame-Windows.utoc, Id=9f4d7f882a5a0752, Order=0, EntryCount=19, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/MovePlayerInventory/Content/Paks/Windows/MovePlayerInventoryFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/MovePlayerInventory/Content/Paks/Windows/MovePlayerInventoryFactoryGame-Windows.utoc"
+Mounting container: Id=9f4d7f882a5a0752, Order=0, NumPackages=10
+Mounted Pak file '../../../FactoryGame/Mods/MovePlayerInventory/Content/Paks/Windows/MovePlayerInventoryFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/MovePlayerInventory/'
+Mount point '../../../FactoryGame/Mods/MovePlayerInventory/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/moidu21_lib/Content/Paks/Windows/moidu21_libFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/moidu21_lib/Content/Paks/Windows/moidu21_libFactoryGame-Windows.utoc, Id=b6bce8dd18fe3ca2, Order=0, EntryCount=1, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/moidu21_lib/Content/Paks/Windows/moidu21_libFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/moidu21_lib/Content/Paks/Windows/moidu21_libFactoryGame-Windows.utoc"
+Mounting container: Id=b6bce8dd18fe3ca2, Order=0, NumPackages=0
+Mounted Pak file '../../../FactoryGame/Mods/moidu21_lib/Content/Paks/Windows/moidu21_libFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/moidu21_lib/'
+Mount point '../../../FactoryGame/Mods/moidu21_lib/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/MAMTips/Content/Paks/Windows/MAMTipsFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/MAMTips/Content/Paks/Windows/MAMTipsFactoryGame-Windows.utoc, Id=f9e53b47b5d5e4db, Order=0, EntryCount=49, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/MAMTips/Content/Paks/Windows/MAMTipsFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/MAMTips/Content/Paks/Windows/MAMTipsFactoryGame-Windows.utoc"
+Mounting container: Id=f9e53b47b5d5e4db, Order=0, NumPackages=39
+Mounted Pak file '../../../FactoryGame/Mods/MAMTips/Content/Paks/Windows/MAMTipsFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/MAMTips/'
+Mount point '../../../FactoryGame/Mods/MAMTips/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/OrganizedCrates/Content/Paks/Windows/OrganizedCratesFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/OrganizedCrates/Content/Paks/Windows/OrganizedCratesFactoryGame-Windows.utoc, Id=6fc8403796a78274, Order=0, EntryCount=9, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/OrganizedCrates/Content/Paks/Windows/OrganizedCratesFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/OrganizedCrates/Content/Paks/Windows/OrganizedCratesFactoryGame-Windows.utoc"
+Mounting container: Id=6fc8403796a78274, Order=0, NumPackages=7
+Mounted Pak file '../../../FactoryGame/Mods/OrganizedCrates/Content/Paks/Windows/OrganizedCratesFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/OrganizedCrates/'
+Mount point '../../../FactoryGame/Mods/OrganizedCrates/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/SmallAwesomeSink/Content/Paks/Windows/SmallAwesomeSinkFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/SmallAwesomeSink/Content/Paks/Windows/SmallAwesomeSinkFactoryGame-Windows.utoc, Id=8692968a9c2afa60, Order=0, EntryCount=38, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/SmallAwesomeSink/Content/Paks/Windows/SmallAwesomeSinkFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/SmallAwesomeSink/Content/Paks/Windows/SmallAwesomeSinkFactoryGame-Windows.utoc"
+Mounting container: Id=8692968a9c2afa60, Order=0, NumPackages=22
+Mounted Pak file '../../../FactoryGame/Mods/SmallAwesomeSink/Content/Paks/Windows/SmallAwesomeSinkFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/SmallAwesomeSink/'
+Mount point '../../../FactoryGame/Mods/SmallAwesomeSink/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/SML/Content/Paks/Windows/SMLFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/SML/Content/Paks/Windows/SMLFactoryGame-Windows.utoc, Id=fa86da71c71dfbad, Order=0, EntryCount=91, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/SML/Content/Paks/Windows/SMLFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/SML/Content/Paks/Windows/SMLFactoryGame-Windows.utoc"
+Mounting container: Id=fa86da71c71dfbad, Order=0, NumPackages=77
+Mounted Pak file '../../../FactoryGame/Mods/SML/Content/Paks/Windows/SMLFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/SML/'
+Mount point '../../../FactoryGame/Mods/SML/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/UndergroundBelts/Content/Paks/Windows/UndergroundBeltsFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/UndergroundBelts/Content/Paks/Windows/UndergroundBeltsFactoryGame-Windows.utoc, Id=e60d20d29db75c42, Order=0, EntryCount=75, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/UndergroundBelts/Content/Paks/Windows/UndergroundBeltsFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/UndergroundBelts/Content/Paks/Windows/UndergroundBeltsFactoryGame-Windows.utoc"
+Mounting container: Id=e60d20d29db75c42, Order=0, NumPackages=49
+Mounted Pak file '../../../FactoryGame/Mods/UndergroundBelts/Content/Paks/Windows/UndergroundBeltsFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/UndergroundBelts/'
+Mount point '../../../FactoryGame/Mods/UndergroundBelts/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/TenTimesAwesomePoints/Content/Paks/Windows/TenTimesAwesomePointsFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/TenTimesAwesomePoints/Content/Paks/Windows/TenTimesAwesomePointsFactoryGame-Windows.utoc, Id=ddcf3336608a8ff1, Order=0, EntryCount=4, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/TenTimesAwesomePoints/Content/Paks/Windows/TenTimesAwesomePointsFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/TenTimesAwesomePoints/Content/Paks/Windows/TenTimesAwesomePointsFactoryGame-Windows.utoc"
+Mounting container: Id=ddcf3336608a8ff1, Order=0, NumPackages=3
+Mounted Pak file '../../../FactoryGame/Mods/TenTimesAwesomePoints/Content/Paks/Windows/TenTimesAwesomePointsFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/TenTimesAwesomePoints/'
+Mount point '../../../FactoryGame/Mods/TenTimesAwesomePoints/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/UtilityMod/Content/Paks/Windows/UtilityModFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/UtilityMod/Content/Paks/Windows/UtilityModFactoryGame-Windows.utoc, Id=356300e204f45ecf, Order=0, EntryCount=14, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/UtilityMod/Content/Paks/Windows/UtilityModFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/UtilityMod/Content/Paks/Windows/UtilityModFactoryGame-Windows.utoc"
+Mounting container: Id=356300e204f45ecf, Order=0, NumPackages=13
+Mounted Pak file '../../../FactoryGame/Mods/UtilityMod/Content/Paks/Windows/UtilityModFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/UtilityMod/'
+Mount point '../../../FactoryGame/Mods/UtilityMod/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/Content/Paks/Windows/BlueprintHighlightedFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/Content/Paks/Windows/BlueprintHighlightedFactoryGame-Windows.utoc, Id=3789050eedd9b94f, Order=0, EntryCount=10, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/Content/Paks/Windows/BlueprintHighlightedFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/Content/Paks/Windows/BlueprintHighlightedFactoryGame-Windows.utoc"
+Mounting container: Id=3789050eedd9b94f, Order=0, NumPackages=9
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/Content/Paks/Windows/BlueprintHighlightedFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/Content/Paks/Windows/FlashlightSettingsFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/Content/Paks/Windows/FlashlightSettingsFactoryGame-Windows.utoc, Id=98958c5fbea7e799, Order=0, EntryCount=31, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/Content/Paks/Windows/FlashlightSettingsFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/Content/Paks/Windows/FlashlightSettingsFactoryGame-Windows.utoc"
+Mounting container: Id=98958c5fbea7e799, Order=0, NumPackages=29
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/Content/Paks/Windows/FlashlightSettingsFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/Content/Paks/Windows/CrashSiteBeaconsFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/Content/Paks/Windows/CrashSiteBeaconsFactoryGame-Windows.utoc, Id=f5868d5a5b98f29f, Order=0, EntryCount=9, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/Content/Paks/Windows/CrashSiteBeaconsFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/Content/Paks/Windows/CrashSiteBeaconsFactoryGame-Windows.utoc"
+Mounting container: Id=f5868d5a5b98f29f, Order=0, NumPackages=8
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/Content/Paks/Windows/CrashSiteBeaconsFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/Content/Paks/Windows/HighlightScannedObjectFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/Content/Paks/Windows/HighlightScannedObjectFactoryGame-Windows.utoc, Id=ff0b8fa2ad42458c, Order=0, EntryCount=9, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/Content/Paks/Windows/HighlightScannedObjectFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/Content/Paks/Windows/HighlightScannedObjectFactoryGame-Windows.utoc"
+Mounting container: Id=ff0b8fa2ad42458c, Order=0, NumPackages=8
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/Content/Paks/Windows/HighlightScannedObjectFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/Content/Paks/Windows/InfiniteNudgeFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/Content/Paks/Windows/InfiniteNudgeFactoryGame-Windows.utoc, Id=d0b2c2556f9f0d86, Order=0, EntryCount=62, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/Content/Paks/Windows/InfiniteNudgeFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/Content/Paks/Windows/InfiniteNudgeFactoryGame-Windows.utoc"
+Mounting container: Id=d0b2c2556f9f0d86, Order=0, NumPackages=39
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/Content/Paks/Windows/InfiniteNudgeFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/Content/Paks/Windows/InfiniteZoopFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/Content/Paks/Windows/InfiniteZoopFactoryGame-Windows.utoc, Id=e19adf24d9ecb605, Order=0, EntryCount=4169, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/Content/Paks/Windows/InfiniteZoopFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/Content/Paks/Windows/InfiniteZoopFactoryGame-Windows.utoc"
+Mounting container: Id=e19adf24d9ecb605, Order=0, NumPackages=4151
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/Content/Paks/Windows/InfiniteZoopFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/NoSplash/Content/Paks/Windows/NoSplashFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/NoSplash/Content/Paks/Windows/NoSplashFactoryGame-Windows.utoc, Id=e98882fa6fdc6ae6, Order=0, EntryCount=5, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/NoSplash/Content/Paks/Windows/NoSplashFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/NoSplash/Content/Paks/Windows/NoSplashFactoryGame-Windows.utoc"
+Mounting container: Id=e98882fa6fdc6ae6, Order=0, NumPackages=4
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/NoSplash/Content/Paks/Windows/NoSplashFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/NoSplash/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/NoSplash/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/minerplus/Content/Paks/Windows/minerplusFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/minerplus/Content/Paks/Windows/minerplusFactoryGame-Windows.utoc, Id=e4503e83a65e26b1, Order=0, EntryCount=453, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/minerplus/Content/Paks/Windows/minerplusFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/minerplus/Content/Paks/Windows/minerplusFactoryGame-Windows.utoc"
+Mounting container: Id=e4503e83a65e26b1, Order=0, NumPackages=394
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/minerplus/Content/Paks/Windows/minerplusFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/minerplus/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/minerplus/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Reading toc: ../../../FactoryGame/Mods/GameFeatures/SkyUI/Content/Paks/Windows/SkyUIFactoryGame-Windows.utoc
+Toc loaded : ../../../FactoryGame/Mods/GameFeatures/SkyUI/Content/Paks/Windows/SkyUIFactoryGame-Windows.utoc, Id=fd8ea6842ba0410a, Order=0, EntryCount=108, SignatureHash=0000000000000000000000000000000000000000
+Mounting container '../../../FactoryGame/Mods/GameFeatures/SkyUI/Content/Paks/Windows/SkyUIFactoryGame-Windows.utoc' in location slot 1
+Mounted IoStore container "../../../FactoryGame/Mods/GameFeatures/SkyUI/Content/Paks/Windows/SkyUIFactoryGame-Windows.utoc"
+Mounting container: Id=fd8ea6842ba0410a, Order=0, NumPackages=85
+Mounted Pak file '../../../FactoryGame/Mods/GameFeatures/SkyUI/Content/Paks/Windows/SkyUIFactoryGame-Windows.pak', mount point: '../../../FactoryGame/Mods/GameFeatures/SkyUI/'
+Mount point '../../../FactoryGame/Mods/GameFeatures/SkyUI/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+Applying CVar settings from Section [/Script/FFXFSR3Settings.FFXFSR3Settings] File [Engine]
+Set CVar [[r.FidelityFX.FSR3.HistoryFormat:0]]
+Set CVar [[r.FidelityFX.FSR3.DeDither:0]]
+Set CVar [[r.FidelityFX.FSR3.UseSSRExperimentalDenoiser:0]]
+Set CVar [[r.FidelityFX.FSR3.CreateReactiveMask:0]]
+Log category LogOnlineSession verbosity has been raised to Verbose.
+NFORDenoise function starting up
+Loaded "C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/Engine/Binaries/Win64/EOSSDK-Win64-Shipping.dll"
+FEOSSDKManager::Initialize Initializing EOSSDK Version:1.18.1.2-47370208
+Using libcurl 8.12.1
+ - built for Windows
+ - supports SSL with OpenSSL/1.1.1t
+ - supports HTTP deflate (compression) using libz 1.3
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_TLSAUTH_SRP
+     CURL_VERSION_HTTP2
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+CreateHttpThread using FCurlMultiPollEventLoopHttpThread
+Creating http thread with maximum 256 concurrent requests
+WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+OSS: Created online subsystem instance for: NULL
+OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+Loaded DLSS-SR plugin version 8.1.0-NGX310.2.1.0
+FNGXVulkanRHIPreInitModule::StartupModule Enter
+Using Default RHI: Vulkan
+Using Highest Feature Level of Vulkan: SM6
+Loading RHI module VulkanRHI
+Checking if RHI Vulkan with Feature Level SM6 is supported by your system.
+Starting Vulkan Profile check for VP_UE_Vulkan_SM6:
+Vulkan Profile check complete.
+RHI Vulkan with Feature Level SM6 is supported and will be used.
+GetSelectedDynamicRHIModuleName = VulkanRHI
+NVSDK_NGX_VULKAN_RequiredExtensions -> (1 NVSDK_NGX_Result_Success)
+Preregistered the required NGX DLSS Vulkan device extensions (4) and instance extensions (1) via the VulkanRHIBridge
+FNGXVulkanRHIPreInitModule::StartupModule Leave
+FSR3 Temporal Upscaling Module Started
+FFX Frame Interpolation Module Started
+Loading Steam SDK 1.57
+Steam SDK Loaded!
+Loaded Streamline plugin version 8.1.0-SL2.7.30
+Using Default RHI: Vulkan
+Using Highest Feature Level of Vulkan: SM6
+Loading RHI module VulkanRHI
+Checking if RHI Vulkan with Feature Level SM6 is supported by your system.
+Starting Vulkan Profile check for VP_UE_Vulkan_SM6:
+Vulkan Profile check complete.
+RHI Vulkan with Feature Level SM6 is supported and will be used.
+Failed to find string table entry for 'Menus_UI' 'Players/Messages/YouGotKicked'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Sessions/JoinSession/Header'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Sessions/JoinSession/Body'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'Warnings/JoinSession/FailedToDestroyOldSession'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'Warnings/JoinSession/FailedToLookupFriendsId'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'Warnings/JoinSession/FailedToLookupHostId'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'Warnings/JoinSession/FailedToJoinSession'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Sessions/SessionExpired/Header'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Session/SessionExpired/Body'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Session/ClientSessionTimeout/Header'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Session/ClientSessionTimeout/Body'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Sessions/Errors/OfflineFallback/aTitle'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Menus_UI' 'Sessions/Errors/OfflineFallback/Body'. Did you forget to add a string table redirector?
+ExecutableName: FactoryGameSteam-Win64-Shipping.exe
+Build: ++FactoryGame+rel-main-1.2.0-CL-493833
+Platform=Windows
+MachineId=3291ca854b01b3d45f838cbc4bd7329d
+DeviceId=
+Engine Version: 5.6.1-493833+++FactoryGame+rel-main-1.2.0
+Compatible Engine Version: 5.6.1-493833+++FactoryGame+rel-main-1.2.0
+Net CL: 493833
+OS: Windows 11 (25H2) [10.0.26200.8117] (), CPU: AMD Ryzen 7 7735HS with Radeon Graphics        , GPU: AMD Radeon(TM) Graphics
+Compiled (64-bit): Jun 10 2026 00:55:59
+Architecture: x64
+Compiled with Visual C++: 19.38.33141.00
+Build Configuration: Shipping
+Branch Name: ++FactoryGame+rel-main-1.2.0
+Command Line: -NO_EOS_OVERLAY
+Base Directory: C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/Engine/Binaries/Win64/
+Allocator: Binned2
+Installed Engine Build: 1
+This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+Launcher File: C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/launcher_id
+Launcher ID: steam
+Launcher Artifact: 
+Presizing for max 2097152 objects, including 1 objects not considered by GC.
+Object subsystem initialized
+Using Default RHI: Vulkan
+Using Highest Feature Level of Vulkan: SM6
+Loading RHI module VulkanRHI
+Checking if RHI Vulkan with Feature Level SM6 is supported by your system.
+Starting Vulkan Profile check for VP_UE_Vulkan_SM6:
+Vulkan Profile check complete.
+RHI Vulkan with Feature Level SM6 is supported and will be used.
+Selected Device Profile: [Windows]
+Platform has ~ 14 GB [14701584384 / 17179869184 / 14], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile []
+Pushing Device Profile CVar: [[UI.SlateSDFText.RasterizationMode:Bitmap -> Msdf]]
+Pushing Device Profile CVar: [[UI.SlateSDFText.ResolutionLevel:2 -> 2]]
+Computer: SLIM
+User: cheva
+CPU Page size=4096, Cores=8
+High frequency timer resolution =10.000000 MHz
+Process is running as part of a Windows Job with separate resource limits
+Memory total: Physical=13.7GB (14GB approx) Virtual=25.2GB
+Platform Memory Stats for Windows
+Process Physical Memory: 246.54 MB used, 263.91 MB peak
+Process Virtual Memory: 186.11 MB used, 186.11 MB peak
+Physical Memory: 7557.27 MB used,  6463.26 MB free, 14020.52 MB total
+Virtual Memory: 10416.86 MB used,  15379.66 MB free, 25796.52 MB total
+WindowsPlatformFeatures enabled
+Physics initialised using underlying interface: Chaos
+Overriding language with engine language configuration option (ru).
+Overriding language with engine locale configuration option (ru).
+LocRes '../../../FactoryGame/Plugins/XeSS/Content/Localization/XeSS/ru/XeSS.locres' could not be opened for reading!
+LocRes '../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/Content/Localization/InfiniteNudge/ru/InfiniteNudge.locres' could not be opened for reading!
+Available input methods:
+  - English (United States) - (Keyboard).
+  - Russian (Russia) - (Keyboard).
+Activated input method: English (United States) - (Keyboard).
+CacheForceMaxTouchpadSensitivityMode SetMaxTouchpadSensitivity
+Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+New Slate User Created. Platform User Id 0, User Index 0, Is Virtual User: 0
+Slate User Registered.  User Index 0, Is Virtual User: 0
+Using Default RHI: Vulkan
+Using Highest Feature Level of Vulkan: SM6
+Loading RHI module VulkanRHI
+Checking if RHI Vulkan with Feature Level SM6 is supported by your system.
+Starting Vulkan Profile check for VP_UE_Vulkan_SM6:
+Vulkan Profile check complete.
+RHI Vulkan with Feature Level SM6 is supported and will be used.
+Vulkan RHI ShaderPlatform for SM6: VULKAN_SM6.
+Vulkan PSO Precaching = 1, PipelineFileCache = 0
+Built with Vulkan header version 1.4.304
+Starting Vulkan Profile check for VP_UE_Vulkan_SM6_RT:
+Vulkan Profile check complete.
+Using API Version 1.3.
+Externally requested instance extension [VK_KHR_get_physical_device_properties2] isn't part of the engine's core extension list. Adding it on-the-fly...
+Found 13 available instance extensions :
+  - VK_EXT_debug_report
+  + VK_EXT_debug_utils
+  + VK_EXT_swapchain_colorspace
+  - VK_KHR_device_group_creation
+  - VK_KHR_external_fence_capabilities
+  - VK_KHR_external_memory_capabilities
+  - VK_KHR_external_semaphore_capabilities
+  + VK_KHR_get_physical_device_properties2
+  + VK_KHR_get_surface_capabilities2
+  - VK_KHR_portability_enumeration
+  + VK_KHR_surface
+  + VK_KHR_win32_surface
+  - VK_LUNARG_direct_driver_loading
+Intance Layer VK_LAYER_AMD_switchable_graphics provides 0 extensions:
+Intance Layer VK_LAYER_OBS_HOOK provides 0 extensions:
+Intance Layer VK_LAYER_VALVE_steam_overlay provides 0 extensions:
+Intance Layer VK_LAYER_VALVE_steam_fossilize provides 0 extensions:
+Found 4 available instance layers :
+  * VK_LAYER_AMD_switchable_graphics
+  * VK_LAYER_OBS_HOOK
+  * VK_LAYER_VALVE_steam_fossilize
+  * VK_LAYER_VALVE_steam_overlay
+Creating Vulkan Device using VkPhysicalDevice 0xf855d50.
+- DeviceName: AMD Radeon(TM) Graphics
+- API=1.4.315 (0x40413b) Driver=0x800161 VendorId=0x1002
+- DeviceID=0x1681 Type=1
+- Max Descriptor Sets Bound 32
+- Timestamps:  ComputeAndGraphics=1  Domain=3  Period=10.000000
+API Version: 1.4.315
+Attached monitors:
+    resolution: 1600x1000, work area: (0, 0) -> (1600, 952), device: '\\.\DISPLAY1' [PRIMARY]
+Found 1 attached monitors.
+Gathering driver information using Windows Setup API
+RHI Adapter Info:
+            Name: AMD Radeon(TM) Graphics
+  Driver Version: AMD Software: Adrenalin Edition 26.5.2 (internal:32.0.21043.10005, unified:32.0.21043.10005)
+     Driver Date: 5-12-2026
+Externally requested device extension [VK_NVX_binary_import] isn't part of the engine's core extension list. Adding it on-the-fly...
+Externally requested device extension [VK_NVX_image_view_handle] isn't part of the engine's core extension list. Adding it on-the-fly...
+Externally requested device extension [VK_EXT_buffer_device_address] isn't part of the engine's core extension list. Adding it on-the-fly...
+Externally requested device extension [VK_KHR_push_descriptor] isn't part of the engine's core extension list. Adding it on-the-fly...
+Found 198 available device extensions :
+  - VK_AMD_anti_lag
+  + VK_AMD_buffer_marker
+  - VK_AMD_device_coherent_memory
+  - VK_AMD_display_native_hdr
+  - VK_AMD_draw_indirect_count
+  - VK_AMD_gcn_shader
+  - VK_AMD_gpa_interface
+  - VK_AMD_gpu_shader_half_float
+  - VK_AMD_gpu_shader_int16
+  - VK_AMD_memory_overallocation_behavior
+  - VK_AMD_mixed_attachment_samples
+  - VK_AMD_shader_ballot
+  - VK_AMD_shader_core_properties
+  - VK_AMD_shader_core_properties2
+  - VK_AMD_shader_early_and_late_fragment_tests
+  - VK_AMD_shader_explicit_vertex_parameter
+  - VK_AMD_shader_fragment_mask
+  - VK_AMD_shader_image_load_store_lod
+  - VK_AMD_shader_info
+  - VK_AMD_shader_trinary_minmax
+  - VK_AMD_texture_gather_bias_lod
+  - VK_EXT_4444_formats
+  - VK_EXT_attachment_feedback_loop_layout
+  - VK_EXT_border_color_swizzle
+  + VK_EXT_calibrated_timestamps
+  - VK_EXT_color_write_enable
+  - VK_EXT_conditional_rendering
+  - VK_EXT_conservative_rasterization
+  - VK_EXT_custom_border_color
+  - VK_EXT_depth_clamp_control
+  - VK_EXT_depth_clamp_zero_one
+  - VK_EXT_depth_clip_control
+  - VK_EXT_depth_clip_enable
+  - VK_EXT_depth_range_unrestricted
+  + VK_EXT_descriptor_buffer
+  * VK_EXT_descriptor_indexing
+  - VK_EXT_device_address_binding_report
+  + VK_EXT_device_fault
+  - VK_EXT_device_generated_commands
+  - VK_EXT_dynamic_rendering_unused_attachments
+  - VK_EXT_extended_dynamic_state
+  - VK_EXT_extended_dynamic_state2
+  - VK_EXT_extended_dynamic_state3
+  - VK_EXT_external_memory_host
+  - VK_EXT_fragment_shader_interlock
+  - VK_EXT_frame_boundary
+  + VK_EXT_full_screen_exclusive
+  - VK_EXT_global_priority
+  - VK_EXT_global_priority_query
+  + VK_EXT_graphics_pipeline_library
+  - VK_EXT_hdr_metadata
+  * VK_EXT_host_query_reset
+  - VK_EXT_image_2d_view_of_3d
+  - VK_EXT_image_robustness
+  - VK_EXT_image_sliced_view_of_3d
+  - VK_EXT_image_view_min_lod
+  - VK_EXT_index_type_uint8
+  - VK_EXT_inline_uniform_block
+  - VK_EXT_line_rasterization
+  + VK_EXT_load_store_op_none
+  + VK_EXT_memory_budget
+  + VK_EXT_memory_priority
+  + VK_EXT_mesh_shader
+  + VK_EXT_mutable_descriptor_type
+  - VK_EXT_nested_command_buffer
+  - VK_EXT_non_seamless_cube_map
+  - VK_EXT_pageable_device_local_memory
+  * VK_EXT_pipeline_creation_cache_control
+  - VK_EXT_pipeline_creation_feedback
+  - VK_EXT_pipeline_library_group_handles
+  - VK_EXT_post_depth_coverage
+  - VK_EXT_primitive_topology_list_restart
+  - VK_EXT_private_data
+  - VK_EXT_provoking_vertex
+  - VK_EXT_queue_family_foreign
+  - VK_EXT_robustness2
+  - VK_EXT_sample_locations
+  - VK_EXT_sampler_filter_minmax
+  * VK_EXT_scalar_block_layout
+  - VK_EXT_separate_stencil_usage
+  - VK_EXT_shader_atomic_float
+  - VK_EXT_shader_atomic_float2
+  * VK_EXT_shader_demote_to_helper_invocation
+  + VK_EXT_shader_image_atomic_int64
+  - VK_EXT_shader_module_identifier
+  - VK_EXT_shader_object
+  - VK_EXT_shader_replicated_composites
+  - VK_EXT_shader_stencil_export
+  - VK_EXT_shader_subgroup_ballot
+  - VK_EXT_shader_subgroup_vote
+  * VK_EXT_shader_viewport_index_layer
+  * VK_EXT_subgroup_size_control
+  - VK_EXT_texel_buffer_alignment
+  * VK_EXT_tooling_info
+  - VK_EXT_transform_feedback
+  - VK_EXT_vertex_attribute_divisor
+  - VK_EXT_vertex_input_dynamic_state
+  - VK_EXT_ycbcr_image_arrays
+  - VK_GOOGLE_decorate_string
+  - VK_GOOGLE_hlsl_functionality1
+  - VK_GOOGLE_user_type
+  + VK_KHR_16bit_storage
+  - VK_KHR_8bit_storage
+  + VK_KHR_acceleration_structure
+  - VK_KHR_bind_memory2
+  * VK_KHR_buffer_device_address
+  - VK_KHR_calibrated_timestamps
+  + VK_KHR_compute_shader_derivatives
+  - VK_KHR_cooperative_matrix
+  - VK_KHR_copy_commands2
+  * VK_KHR_create_renderpass2
+  - VK_KHR_dedicated_allocation
+  + VK_KHR_deferred_host_operations
+  - VK_KHR_depth_clamp_zero_one
+  + VK_KHR_depth_stencil_resolve
+  - VK_KHR_descriptor_update_template
+  - VK_KHR_device_group
+  - VK_KHR_draw_indirect_count
+  * VK_KHR_driver_properties
+  * VK_KHR_dynamic_rendering
+  - VK_KHR_dynamic_rendering_local_read
+  - VK_KHR_external_fence
+  - VK_KHR_external_fence_win32
+  - VK_KHR_external_memory
+  + VK_KHR_external_memory_win32
+  - VK_KHR_external_semaphore
+  - VK_KHR_external_semaphore_win32
+  - VK_KHR_format_feature_flags2
+  + VK_KHR_fragment_shader_barycentric
+  + VK_KHR_fragment_shading_rate
+  * VK_KHR_get_memory_requirements2
+  - VK_KHR_global_priority
+  * VK_KHR_image_format_list
+  - VK_KHR_imageless_framebuffer
+  - VK_KHR_index_type_uint8
+  - VK_KHR_line_rasterization
+  - VK_KHR_load_store_op_none
+  - VK_KHR_maintenance1
+  - VK_KHR_maintenance2
+  - VK_KHR_maintenance3
+  * VK_KHR_maintenance4
+  + VK_KHR_maintenance5
+  - VK_KHR_maintenance6
+  - VK_KHR_maintenance7
+  - VK_KHR_maintenance8
+  - VK_KHR_map_memory2
+  * VK_KHR_multiview
+  - VK_KHR_pipeline_binary
+  - VK_KHR_pipeline_executable_properties
+  + VK_KHR_pipeline_library
+  + VK_KHR_push_descriptor
+  + VK_KHR_ray_query
+  - VK_KHR_ray_tracing_maintenance1
+  + VK_KHR_ray_tracing_pipeline
+  + VK_KHR_ray_tracing_position_fetch
+  - VK_KHR_relaxed_block_layout
+  - VK_KHR_robustness2
+  - VK_KHR_sampler_mirror_clamp_to_edge
+  * VK_KHR_sampler_ycbcr_conversion
+  * VK_KHR_separate_depth_stencil_layouts
+  * VK_KHR_shader_atomic_int64
+  - VK_KHR_shader_clock
+  - VK_KHR_shader_draw_parameters
+  - VK_KHR_shader_expect_assume
+  + VK_KHR_shader_float16_int8
+  * VK_KHR_shader_float_controls
+  - VK_KHR_shader_float_controls2
+  - VK_KHR_shader_integer_dot_product
+  - VK_KHR_shader_maximal_reconvergence
+  - VK_KHR_shader_non_semantic_info
+  - VK_KHR_shader_quad_control
+  - VK_KHR_shader_subgroup_extended_types
+  - VK_KHR_shader_subgroup_rotate
+  - VK_KHR_shader_subgroup_uniform_control_flow
+  - VK_KHR_shader_terminate_invocation
+  * VK_KHR_spirv_1_4
+  - VK_KHR_storage_buffer_storage_class
+  + VK_KHR_swapchain
+  - VK_KHR_swapchain_mutable_format
+  * VK_KHR_synchronization2
+  * VK_KHR_timeline_semaphore
+  - VK_KHR_uniform_buffer_standard_layout
+  - VK_KHR_variable_pointers
+  - VK_KHR_vertex_attribute_divisor
+  - VK_KHR_video_decode_av1
+  - VK_KHR_video_decode_h264
+  - VK_KHR_video_decode_h265
+  - VK_KHR_video_decode_queue
+  - VK_KHR_video_encode_h264
+  - VK_KHR_video_encode_h265
+  - VK_KHR_video_encode_queue
+  - VK_KHR_video_maintenance1
+  - VK_KHR_video_queue
+  - VK_KHR_vulkan_memory_model
+  - VK_KHR_win32_keyed_mutex
+  - VK_KHR_workgroup_memory_explicit_layout
+  - VK_KHR_zero_initialize_workgroup_memory
+  - VK_VALVE_mutable_descriptor_type
+Device Layer VK_LAYER_AMD_switchable_graphics provides 0 extensions:
+Device Layer VK_LAYER_OBS_HOOK provides 0 extensions:
+Device Layer VK_LAYER_VALVE_steam_overlay provides 0 extensions:
+Device Layer VK_LAYER_VALVE_steam_fossilize provides 0 extensions:
+Found 4 available device layers :
+  * VK_LAYER_AMD_switchable_graphics
+  * VK_LAYER_OBS_HOOK
+  * VK_LAYER_VALVE_steam_fossilize
+  * VK_LAYER_VALVE_steam_overlay
+Vulkan Physical Device Driver Properties:
+- driverName: AMD proprietary driver
+- driverInfo: 26.5.2 (AMD proprietary shader compiler)
+Vulkan Variable Rate Shading choice: 0.
+Device properties: Geometry 1 BufferAtomic64 1 ImageAtomic64 1
+Enabling Vulkan Descriptor Buffers with: allowSamplerImageViewPostSubmitCreation=1, maxDescriptorBufferBindings=32, maxSamplerDescriptorBufferBindings=32, maxResourceDescriptorBufferBindings=32, samplerDescriptorBufferAddressSpaceSize=4294967295, resourceDescriptorBufferAddressSpaceSize=4294967295, maxSamplerDescriptorBufferRange=4294967295, maxResourceDescriptorBufferRange=4294967295, descriptorBufferAddressSpaceSize=4294967295, descriptorBufferOffsetAlignment=16, samplerDescriptorSize=16
+Found 5 Queue Families
+Initializing Queue Family 0: 8 queues Gfx Compute Xfer Sparse
+Skipping unnecessary Queue Family 1: 4 queues Compute Xfer Sparse
+Skipping unnecessary Queue Family 2: 1 queues Xfer Sparse
+Skipping unnecessary Queue Family 3: 1 queues
+Skipping unnecessary Queue Family 4: 1 queues
+TimestampValidBits=64
+Using 0 device layers.
+Using 48 device extensions:
+* VK_KHR_swapchain
+* VK_EXT_memory_budget
+* VK_EXT_memory_priority
+* VK_KHR_create_renderpass2
+* VK_KHR_deferred_host_operations
+* VK_KHR_spirv_1_4
+* VK_KHR_shader_float_controls
+* VK_KHR_image_format_list
+* VK_EXT_load_store_op_none
+* VK_KHR_dynamic_rendering
+* VK_KHR_pipeline_library
+* VK_KHR_driver_properties
+* VK_KHR_maintenance4
+* VK_KHR_maintenance5
+* VK_KHR_shader_atomic_int64
+* VK_EXT_shader_image_atomic_int64
+* VK_EXT_scalar_block_layout
+* VK_EXT_shader_viewport_index_layer
+* VK_KHR_separate_depth_stencil_layouts
+* VK_KHR_synchronization2
+* VK_KHR_fragment_shading_rate
+* VK_KHR_multiview
+* VK_KHR_get_memory_requirements2
+* VK_EXT_descriptor_indexing
+* VK_EXT_host_query_reset
+* VK_EXT_subgroup_size_control
+* VK_EXT_calibrated_timestamps
+* VK_EXT_descriptor_buffer
+* VK_EXT_device_fault
+* VK_EXT_shader_demote_to_helper_invocation
+* VK_KHR_16bit_storage
+* VK_KHR_shader_float16_int8
+* VK_KHR_depth_stencil_resolve
+* VK_EXT_pipeline_creation_cache_control
+* VK_KHR_fragment_shader_barycentric
+* VK_KHR_compute_shader_derivatives
+* VK_KHR_sampler_ycbcr_conversion
+* VK_KHR_timeline_semaphore
+* VK_EXT_mesh_shader
+* VK_EXT_graphics_pipeline_library
+* VK_EXT_mutable_descriptor_type
+* VK_KHR_buffer_device_address
+* VK_KHR_acceleration_structure
+* VK_KHR_ray_tracing_pipeline
+* VK_KHR_ray_query
+* VK_KHR_ray_tracing_position_fetch
+* VK_EXT_full_screen_exclusive
+* VK_KHR_push_descriptor
+MapImageFormatSupport: D24 is not supported with VkFormat 125, falling back to VkFormat 128
+Max memory allocations 4294967295.
+3 Device Memory Heaps:
+  0: Flags 0x3 - Size 6153240576 (5868.19 MB) - Used 0 (0.00%) - DeviceLocal - PrimaryHeap
+  1: Flags 0x0 - Size 3076587520 (2934.06 MB) - Used 0 (0.00%)
+  2: Flags 0x3 - Size 268435456 (256.00 MB) - Used 0 (0.00%) - DeviceLocal
+16 Device Memory Types (Not unified):
+  0: Flags 0x00001 - Heap  0 - 1
+  4: Flags 0x000c1 - Heap  0 - 193
+  8: Flags 0x00001 - Heap  0 - 1
+ 12: Flags 0x000c1 - Heap  0 - 193
+  1: Flags 0x00006 - Heap  1 - 6
+  3: Flags 0x0000e - Heap  1 - 14
+  5: Flags 0x000c6 - Heap  1 - 198
+  7: Flags 0x000ce - Heap  1 - 206
+  9: Flags 0x00006 - Heap  1 - 6
+ 11: Flags 0x0000e - Heap  1 - 14
+ 13: Flags 0x000c6 - Heap  1 - 198
+ 15: Flags 0x000ce - Heap  1 - 206
+  2: Flags 0x00007 - Heap  2 - 7
+  6: Flags 0x000c7 - Heap  2 - 199
+ 10: Flags 0x00007 - Heap  2 - 7
+ 14: Flags 0x000c7 - Heap  2 - 199
+Memory Budget Extension:
+	         | Usage                     | Budget          | Size            |
+	---------|------------------------------------------------------------------|
+	 HEAP 00 |   0.00% /          0.00 MB |       5574.78 MB |       5868.19 MB |
+	 HEAP 01 |   0.00% /          0.00 MB |       2787.36 MB |       2934.06 MB |
+	 HEAP 02 |   0.00% /          0.00 MB |        243.20 MB |        256.00 MB |
+	---------|------------------------------------------------------------------|
+Dynamic Uniform Buffers are enabled, but they will not be used with Vulkan bindless.
+Memory defrag is enabled, but it will not be used with Vulkan bindless.
+FVulkanPipelineStateCacheManager: Binary pipeline cache 'C:/Users/cheva/AppData/Local/FactoryGame/Saved/VulkanPSO.cache.1002.1681' not found.
+Vulkan Async Compute has been DISABLED.
+Wave Operations have been ENABLED (wave size: min=32 max=64).
+Integrated GPU (iGPU): true
+Current RHI supports per-draw and screenspace Variable Rate Shading
+Texture pool is 4286 MB (70% of 6124 MB)
+Initializing FReadOnlyCVARCache
+Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+Using IoDispatcher for shader code library Global. Total 7502 unique shaders.
+Cooked Context: Using Shared Shader Library Global
+Logical shader library 'Global' has been created as a monolithic library
+Using IoDispatcher for shader code library ContainerScreen. Total 28 unique shaders.
+Using IoDispatcher for shader code library MovePlayerInventory. Total 13 unique shaders.
+Cooked Context: Using Shared Shader Library ContainerScreen
+Cooked Context: Using Shared Shader Library MovePlayerInventory
+Logical shader library 'ContainerScreen' has been created as a monolithic library
+Logical shader library 'MovePlayerInventory' has been created as a monolithic library
+Using IoDispatcher for shader code library ContainerWithScreen. Total 30 unique shaders.
+Cooked Context: Using Shared Shader Library ContainerWithScreen
+Logical shader library 'ContainerWithScreen' has been created as a monolithic library
+Using IoDispatcher for shader code library SmallAwesomeSink. Total 11 unique shaders.
+Cooked Context: Using Shared Shader Library SmallAwesomeSink
+Logical shader library 'SmallAwesomeSink' has been created as a monolithic library
+Using IoDispatcher for shader code library minerplus. Total 231 unique shaders.
+Cooked Context: Using Shared Shader Library minerplus
+Logical shader library 'minerplus' has been created as a monolithic library
+Using IoDispatcher for shader code library UndergroundBelts. Total 65 unique shaders.
+Using IoDispatcher for shader code library InfiniteZoop. Total 26 unique shaders.
+Cooked Context: Using Shared Shader Library UndergroundBelts
+Using IoDispatcher for shader code library InfiniteNudge. Total 41 unique shaders.
+Logical shader library 'UndergroundBelts' has been created as a monolithic library
+Cooked Context: Using Shared Shader Library InfiniteZoop
+Logical shader library 'InfiniteZoop' has been created as a monolithic library
+Cooked Context: Using Shared Shader Library InfiniteNudge
+Using IoDispatcher for shader code library SML. Total 11 unique shaders.
+Logical shader library 'InfiniteNudge' has been created as a monolithic library
+Using IoDispatcher for shader code library SkyUI. Total 13 unique shaders.
+Cooked Context: Using Shared Shader Library SML
+Cooked Context: Using Shared Shader Library SkyUI
+Logical shader library 'SML' has been created as a monolithic library
+Logical shader library 'SkyUI' has been created as a monolithic library
+Using IoDispatcher for shader code library MAMTips. Total 13 unique shaders.
+Cooked Context: Using Shared Shader Library MAMTips
+Logical shader library 'MAMTips' has been created as a monolithic library
+XR: Instanced Stereo Rendering is Disabled
+XR: MultiViewport is Disabled
+XR: Mobile Multiview is Disabled
+Using FreeType 2.10.0
+SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+LogEOS: [Boot] EOSSDK Version 1.18.1.2-47370208 booting at 2026-06-12T12:51:58.881Z using C
+LogEOS: [Boot] EOSSDK Platform Configuration win64-dynamic-x86_64
+LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.8115.64bit, ClientId=02612880aa774fb28e3741d3e01501fd, ProductId=prod-crab, SandboxId=crab, DeploymentId=5aebeb30a7614270b4f40c0bc2fe7549, ProductName=FactoryGame, ProductVersion=++FactoryGame+rel-main-1.2.0-CL-493833, IsServer=false, Flags=None]
+LogEOSAnalytics: Start Session (User: ...)
+LogEOSOverlay: OverlayPath registry key not found
+LogEOSOverlay: Overlay will not load, because the binary's path is not configured
+LogEOSOverlay: Failed to initialize overlay module: PATH_NOT_CONFIGURED
+LogEOSAuth: FAccountPortalBrowserManager::Init: Failed to register overlay: EOS_NotConfigured
+LogEOSUI: Hot key event ignored because there are no known users.
+LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+LogEOSRTC: [Core] Initializing LibRTC...
+LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+LogEOS: Updating Platform SDK Config, Time: 0.000040
+Parsed Schema definition: SchemaId: [LobbyBase], SchemaCompatabilityId: [0x5F1D9C43215C9EC6]
+Missing bUseBuildIdOverride= in [OnlineServices] of DefaultEngine.ini
+Missing BuildIdOverride= in [OnlineServices] of DefaultEngine.ini
+000001DF29BAD040 Epic online services instance initialize
+XeSS plugin version: 1, version name: 2.0.10
+Loading XeSS library 2.0.1 on AMD RHI Vulkan
+Intel XeSS effect supported
+XeSS successfully initialized
+Loaded XeLL SDK 1.1.0 on AMD RHI Vulkan
+Loaded XeFG SDK 1.1.0 on AMD RHI Vulkan
+XeFG not supported for current RHI: Vulkan
+Queue Family 0: Supports Present
+Creating new VK swapchain with 0, 64, 0, num images 3
+Using IoDispatcher for shader code library FactoryGame. Total 56475 unique shaders.
+Cooked Context: Using Shared Shader Library FactoryGame
+Logical shader library 'FactoryGame' has been created as a monolithic library
+Tried to open again shader library 'FactoryGame', but could not find new components for it (existing components: 1).
+Overriding language with engine language configuration option (ru).
+Overriding language with engine locale configuration option (ru).
+LocRes '../../../FactoryGame/Content/Localization/Game/ru/Game.locres' could not be opened for reading!
+FAssetRegistry took 0.0001 seconds to start up
+FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+Updated: NewPackages=33505, OldPackages=0, TotalPackages=33506
+Active device profile: [00007FF4D790F160][000001DF28526DC0 66] Windows
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Generic/ThisShouldNeverBeSeen'. Did you forget to add a string table redirector?
+No Audio Capture implementations found. Audio input will be silent.
+MetaSound Page Target Initialized to 'Default'
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/AnyUndefined'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/AnyUndefined/Description'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Units_UI' 'Meter/m/Pattern'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Generic/Initializing'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/InvalidAimLocation'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/CannotAfford'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/InvalidPlacement'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/Clearance'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/OverlappingPossibleClipping'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/PlayerInTheWay'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/CreatureInTheWay'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/VehicleInTheWay'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/FloorTooSteep'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/ThereCanBeOnlyOne'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresSnapToFoundation'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresSnapToWall'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresSnapToRailroadTrack'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/CeilingRequired'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/CannotSnapToFoundation'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresResourceNode'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Drones/RequiresSnapToPort'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Drones/PortOccupied'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Drones/AssignedToDronePort'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresFrackingCoreNode'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresFrackingSatelliteNode'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Resources/NodeOccupied'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Resources/NotDeepEnough'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresDeepWater'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Resources/PlaceExtractorOnNode'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/PowerLines/RequiresHookUpToConnection'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/PowerLines/WireTooLong'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/PowerLines/AlreadyConnected'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Signs/CannotSnap'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/PowerLines/CantConnectMore'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Belts/SnapToConveyorPole'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Belts/TooLong'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Belts/TooShort'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Belts/TooSteep'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Belts/InvalidShape'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Belts/TooSharp'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/RequiresRailroad'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/NoSpace'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/OtherSignal'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/EndOfTrack'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/SwitchTooClose'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/SwitchPositionsTooMany'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/RequiresPlacedInlineWithPlatform'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/TooLong'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/TooShort'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/TooSteep'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/RailroadTracks/TurnTooSharp'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/TooShort'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/TooLong'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/TooSharp'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/RequiresSnapToPipeSupport'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/DifferentFluids'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/InvalidShape'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Pipes/NoPath'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BuildMode/IdenticalBuildable'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BlueprintDesigner/CannotBePlaced'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BlueprintDesigner/Overlapping'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/BlueprintDesigner/CannotConnect'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Upgrades/Invalid'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Customization/InvalidTarget'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Customization/AlreadyApplied'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/OccupiedBlueprintDesigner'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/OccupiedElevator'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/OccupiedTrainPlatform/TrainDocking'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/OccupiedTrainPlatform/VehiclesOnIt'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/OccupiedRailwaySegment'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/MovingVehicle'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/DockingVehicle'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/DerailedVehicle'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/OccupiedVehicle'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/UnopenedCrashSite'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/DismantleMode/UnlootedCrashSite'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Elevator/RequiresSnapToElevator'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Elevator/MaxFloorStopCountReached'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Elevator/MaxElevatorHeight'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Elevator/ElevatorStopUpgradeMustChange'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Vehicles/InvalidDockingNodeElevation'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'ConstructDisqualifiers/Vehicles/IncompatiblePath'. Did you forget to add a string table redirector?
+UGameplayTagsManager::InitializeManager -  0.001 s
+Failed to find string table entry for 'Player_UI' 'HUD/Compass/North'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Player_UI' 'HUD/Compass/South'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Player_UI' 'HUD/Compass/East'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Player_UI' 'HUD/Compass/West'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/None'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/None/Description'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/Overflow'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/Overflow/Description'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Messages_UI' 'Options/OfflinePlayer'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Categories/Standard'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Materials/Foundations/FICSIT'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Materials/Foundations/Concrete'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Materials/Foundations/CoatedConcrete'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Materials/Walls/Concrete'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Categories/Pipes'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Customization_Data' 'Categories/Vehicles'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'ST_Options' 'QualityLow'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'ST_Options' 'QualityMedium'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'ST_Options' 'QualityHigh'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'ST_Options' 'QualityUltra'. Did you forget to add a string table redirector?
+Failed to find string table entry for 'Buildables_UI' 'Splitters/Smart/AddItem/Any/Description'. Did you forget to add a string table redirector?
+Processed 116 localized package path(s) for 1 prioritized culture(s) in 0.000216 seconds
+No Audio Capture implementations found. Audio input will be silent.
+FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+WwiseModule: Loading AkAudio
+Loading WwiseSoundEngine module: WwiseSoundEngine
+Loading Wwise SoundEngine 2023.1.14 (Integration 2023.1)
+FAkAudioModule::UpdateWwiseResourceLoaderSettings : Updating Resource Loader settings.
+Loading WwiseResourceLoader module: WwiseResourceLoader
+Wwise(R) SDK Version 2023.1.14 Build 8770 [Release(StaticCRT)]. (C) 2006-2025. Audiokinetic Inc. All rights reserved.
+Loading WwiseFileHandler module: WwiseFileHandler
+Loading WwiseProcessing module: WwiseProcessing
+Initializing default Processing.
+Loading WwiseSoundEngine module: WwiseSoundEngine
+Loading WwiseSoundEngine module: WwiseSoundEngine
+Wwise plug-in DLL path: C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/Engine/Plugins/Wwise/ThirdParty/x64_vc170/Release/bin/
+Wwise SoundEngine successfully initialized.
+Initialization complete.
+Audiokinetic Audio Device initialized.
+Loading WwiseConcurrency module: WwiseConcurrency
+Initializing default Concurrency.
+New pak file ../../../FactoryGame/Content/Paks/FactoryGame-Windows.pak added to pak precacher.
+Precache HighWater 16MB
+
+Precache HighWater 32MB
+
+Precache HighWater 48MB
+
+FAkAudioDevice::LoadDelayedObjects: Loading 4 delayed Wwise Objects after initialization.
+Gauntlet Initialized
+Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+Registering Engine Module Parameter Interfaces...
+MetaSound Engine Initialized
+Initializing default Niagara.
+Deriving CSV String Table Root by combining Poject Content Dir [../../../FactoryGame/Content/] and Folder Path [Localization/StringTables]
+Processing CSV String Table root [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Architecture_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Architecture_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Architecture_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Architecture_Data.csv]
+Deriving CSV String Table ID: Final [Architecture_Data]
+Registering CSV String Table Architecture_Data at Content/Localization/StringTables/Architecture_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/AWESOME_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/AWESOME_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/AWESOME_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [AWESOME_Data.csv]
+Deriving CSV String Table ID: Final [AWESOME_Data]
+Registering CSV String Table AWESOME_Data at Content/Localization/StringTables/AWESOME_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/AWESOME_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/AWESOME_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/AWESOME_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [AWESOME_UI.csv]
+Deriving CSV String Table ID: Final [AWESOME_UI]
+Registering CSV String Table AWESOME_UI at Content/Localization/StringTables/AWESOME_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Buildables_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Buildables_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Buildables_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Buildables_Data.csv]
+Deriving CSV String Table ID: Final [Buildables_Data]
+Registering CSV String Table Buildables_Data at Content/Localization/StringTables/Buildables_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Buildables_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Buildables_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Buildables_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Buildables_UI.csv]
+Deriving CSV String Table ID: Final [Buildables_UI]
+Registering CSV String Table Buildables_UI at Content/Localization/StringTables/Buildables_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Codex_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Codex_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Codex_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Codex_UI.csv]
+Deriving CSV String Table ID: Final [Codex_UI]
+Registering CSV String Table Codex_UI at Content/Localization/StringTables/Codex_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Credits_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Credits_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Credits_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Credits_UI.csv]
+Deriving CSV String Table ID: Final [Credits_UI]
+Registering CSV String Table Credits_UI at Content/Localization/StringTables/Credits_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Customization_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Customization_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Customization_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Customization_Data.csv]
+Deriving CSV String Table ID: Final [Customization_Data]
+Registering CSV String Table Customization_Data at Content/Localization/StringTables/Customization_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Customization_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Customization_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Customization_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Customization_UI.csv]
+Deriving CSV String Table ID: Final [Customization_UI]
+Registering CSV String Table Customization_UI at Content/Localization/StringTables/Customization_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Emotes_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Emotes_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Emotes_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Emotes_Data.csv]
+Deriving CSV String Table ID: Final [Emotes_Data]
+Registering CSV String Table Emotes_Data at Content/Localization/StringTables/Emotes_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Equipment_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Equipment_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Equipment_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Equipment_Data.csv]
+Deriving CSV String Table ID: Final [Equipment_Data]
+Registering CSV String Table Equipment_Data at Content/Localization/StringTables/Equipment_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/FICSMAS_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/FICSMAS_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/FICSMAS_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [FICSMAS_Data.csv]
+Deriving CSV String Table ID: Final [FICSMAS_Data]
+Registering CSV String Table FICSMAS_Data at Content/Localization/StringTables/FICSMAS_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/FICSMAS_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/FICSMAS_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/FICSMAS_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [FICSMAS_UI.csv]
+Deriving CSV String Table ID: Final [FICSMAS_UI]
+Registering CSV String Table FICSMAS_UI at Content/Localization/StringTables/FICSMAS_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Gamepads_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Gamepads_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Gamepads_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Gamepads_UI.csv]
+Deriving CSV String Table ID: Final [Gamepads_UI]
+Registering CSV String Table Gamepads_UI at Content/Localization/StringTables/Gamepads_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/GamepadsMappings_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/GamepadsMappings_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/GamepadsMappings_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [GamepadsMappings_UI.csv]
+Deriving CSV String Table ID: Final [GamepadsMappings_UI]
+Registering CSV String Table GamepadsMappings_UI at Content/Localization/StringTables/GamepadsMappings_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/General_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/General_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/General_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [General_UI.csv]
+Deriving CSV String Table ID: Final [General_UI]
+Registering CSV String Table General_UI at Content/Localization/StringTables/General_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/HUB_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/HUB_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/HUB_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [HUB_UI.csv]
+Deriving CSV String Table ID: Final [HUB_UI]
+Registering CSV String Table HUB_UI at Content/Localization/StringTables/HUB_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/IconLibrary_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/IconLibrary_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/IconLibrary_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [IconLibrary_Data.csv]
+Deriving CSV String Table ID: Final [IconLibrary_Data]
+Registering CSV String Table IconLibrary_Data at Content/Localization/StringTables/IconLibrary_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Items_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Items_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Items_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Items_Data.csv]
+Deriving CSV String Table ID: Final [Items_Data]
+Registering CSV String Table Items_Data at Content/Localization/StringTables/Items_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/MAM_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/MAM_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/MAM_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [MAM_Data.csv]
+Deriving CSV String Table ID: Final [MAM_Data]
+Registering CSV String Table MAM_Data at Content/Localization/StringTables/MAM_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/MAM_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/MAM_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/MAM_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [MAM_UI.csv]
+Deriving CSV String Table ID: Final [MAM_UI]
+Registering CSV String Table MAM_UI at Content/Localization/StringTables/MAM_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Map_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Map_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Map_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Map_UI.csv]
+Deriving CSV String Table ID: Final [Map_UI]
+Registering CSV String Table Map_UI at Content/Localization/StringTables/Map_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Menus_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Menus_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Menus_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Menus_UI.csv]
+Deriving CSV String Table ID: Final [Menus_UI]
+Registering CSV String Table Menus_UI at Content/Localization/StringTables/Menus_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Messages_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Messages_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Messages_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Messages_UI.csv]
+Deriving CSV String Table ID: Final [Messages_UI]
+Registering CSV String Table Messages_UI at Content/Localization/StringTables/Messages_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Minigame_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Minigame_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Minigame_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Minigame_UI.csv]
+Deriving CSV String Table ID: Final [Minigame_UI]
+Registering CSV String Table Minigame_UI at Content/Localization/StringTables/Minigame_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Onboarding.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Onboarding.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Onboarding.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Onboarding.csv]
+Deriving CSV String Table ID: Final [Onboarding]
+Registering CSV String Table Onboarding at Content/Localization/StringTables/Onboarding.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Options_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Options_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Options_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Options_Data.csv]
+Deriving CSV String Table ID: Final [Options_Data]
+Registering CSV String Table Options_Data at Content/Localization/StringTables/Options_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/OptionsInputs_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/OptionsInputs_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/OptionsInputs_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [OptionsInputs_Data.csv]
+Deriving CSV String Table ID: Final [OptionsInputs_Data]
+Registering CSV String Table OptionsInputs_Data at Content/Localization/StringTables/OptionsInputs_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Player_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Player_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Player_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Player_UI.csv]
+Deriving CSV String Table ID: Final [Player_UI]
+Registering CSV String Table Player_UI at Content/Localization/StringTables/Player_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Schematics_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Schematics_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Schematics_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Schematics_Data.csv]
+Deriving CSV String Table ID: Final [Schematics_Data]
+Registering CSV String Table Schematics_Data at Content/Localization/StringTables/Schematics_Data.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Transportation_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Transportation_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Transportation_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Transportation_UI.csv]
+Deriving CSV String Table ID: Final [Transportation_UI]
+Registering CSV String Table Transportation_UI at Content/Localization/StringTables/Transportation_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/Units_UI.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Units_UI.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/Units_UI.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [Units_UI.csv]
+Deriving CSV String Table ID: Final [Units_UI]
+Registering CSV String Table Units_UI at Content/Localization/StringTables/Units_UI.csv
+IterateDirectoryRecursively reached [../../../FactoryGame/Content/Localization/StringTables/World_Data.csv]
+IterateDirectoryRecursively reached (FullPath) [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/World_Data.csv]
+Attempting to register CSV String Table with path [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables/World_Data.csv] and root folder [C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/FactoryGame/Content/Localization/StringTables]
+Deriving CSV String Table ID: After removing root [World_Data.csv]
+Deriving CSV String Table ID: Final [World_Data]
+Registering CSV String Table World_Data at Content/Localization/StringTables/World_Data.csv
+SteamSockets: Initializing Network Relay
+Size of member pointer is 16
+Attempting to discover UFGWorkBench::SetRecipe at 00007FFF84B488B0
+Hooking function UFGWorkBench::SetRecipe: Provided address: 00007FFF84B488B0, resolved address: 00007FFF84B488B0
+Overriding UFGWorkBench::SetRecipe at 00007FFF84B488B0 to 00007FFFA2F144E0
+Successfully hooked function UFGWorkBench::SetRecipe at 00007FFF84B488B0
+Size of member pointer is 16
+Attempting to discover UFGWorkBench::SetWorkBenchUser at 00007FFF84B48F00
+Hooking function UFGWorkBench::SetWorkBenchUser: Provided address: 00007FFF84B48F00, resolved address: 00007FFF84B48F00
+Overriding UFGWorkBench::SetWorkBenchUser at 00007FFF84B48F00 to 00007FFFA2F14300
+Successfully hooked function UFGWorkBench::SetWorkBenchUser at 00007FFF84B48F00
+Size of member pointer is 16
+Attempting to discover UFGWorkBench::TickProducing at 00007FFF84B4D530
+Hooking function UFGWorkBench::TickProducing: Provided address: 00007FFF84B4D530, resolved address: 00007FFF84B4D530
+Overriding UFGWorkBench::TickProducing at 00007FFF84B4D530 to 00007FFFA2F14110
+Successfully hooked function UFGWorkBench::TickProducing at 00007FFF84B4D530
+Size of member pointer is 16
+Attempting to discover AFGScannableSubsystem::OnDropPodLooted at 00007FFF84AB6690
+Hooking function AFGScannableSubsystem::OnDropPodLooted: Provided address: 00007FFF84AB6690, resolved address: 00007FFF84AB6690
+Overriding AFGScannableSubsystem::OnDropPodLooted at 00007FFF84AB6690 to 00007FFFA2E63FD0
+Successfully hooked function AFGScannableSubsystem::OnDropPodLooted at 00007FFF84AB6690
+Attempting to discover UFGBuildDescriptor::GetHologramClass at 00007FFF84C4C3E0
+Hooking function UFGBuildDescriptor::GetHologramClass: Provided address: 00007FFF84C4C3E0, resolved address: 00007FFF84C4C3E0
+Overriding UFGBuildDescriptor::GetHologramClass at 00007FFF84C4C3E0 to 00007FFFA2E1BFC0
+Successfully hooked function UFGBuildDescriptor::GetHologramClass at 00007FFF84C4C3E0
+Size of member pointer is 16
+Attempting to discover AFGHologram::LockHologramPosition at 00007FFF84BC6310
+Hooking function AFGHologram::LockHologramPosition: Provided address: 00007FFF84BC6310, resolved address: 00007FFF84BC6310
+Overriding AFGHologram::LockHologramPosition at 00007FFF84BC6310 to 00007FFFA2E1D150
+Successfully hooked function AFGHologram::LockHologramPosition at 00007FFF84BC6310
+Size of member pointer is 16
+Attempting to discover AFGHologram::GetNudgeDistance at 00007FFFA2E1A4C8
+Attempting to resolve virtual function AFGHologram::GetNudgeDistance. This adjustment: 0x0, virtual function table offset: 0x8f0
+Successfully resolved virtual function thunk AFGHologram::GetNudgeDistance at 00007FFFA2E1A4C8 to function implementation at 00007FFF84BC1430
+Hooking function AFGHologram::GetNudgeDistance: Provided address: 00007FFFA2E1A4C8, resolved address: 00007FFF84BC1430
+Overriding AFGHologram::GetNudgeDistance at 00007FFF84BC1430 to 00007FFFA2E1C970
+Successfully hooked function AFGHologram::GetNudgeDistance at 00007FFF84BC1430
+Size of member pointer is 16
+Attempting to discover AFGConveyorLiftHologram::CanNudgeHologram at 00007FFFA2E1A4B0
+Attempting to resolve virtual function AFGConveyorLiftHologram::CanNudgeHologram. This adjustment: 0x0, virtual function table offset: 0x8e0
+Successfully resolved virtual function thunk AFGConveyorLiftHologram::CanNudgeHologram at 00007FFFA2E1A4B0 to function implementation at 00007FFF84B65830
+Hooking function AFGConveyorLiftHologram::CanNudgeHologram: Provided address: 00007FFFA2E1A4B0, resolved address: 00007FFF84B65830
+Overriding AFGConveyorLiftHologram::CanNudgeHologram at 00007FFF84B65830 to 00007FFFA2E1C680
+Successfully hooked function AFGConveyorLiftHologram::CanNudgeHologram at 00007FFF84B65830
+Size of member pointer is 16
+Attempting to discover AFGConveyorAttachmentHologram::CanNudgeHologram at 00007FFFA2E1A4B0
+Attempting to resolve virtual function AFGConveyorAttachmentHologram::CanNudgeHologram. This adjustment: 0x0, virtual function table offset: 0x8e0
+Successfully resolved virtual function thunk AFGConveyorAttachmentHologram::CanNudgeHologram at 00007FFFA2E1A4B0 to function implementation at 00007FFF84B657F0
+Hooking function AFGConveyorAttachmentHologram::CanNudgeHologram: Provided address: 00007FFFA2E1A4B0, resolved address: 00007FFF84B657F0
+Overriding AFGConveyorAttachmentHologram::CanNudgeHologram at 00007FFF84B657F0 to 00007FFFA2E1C390
+Successfully hooked function AFGConveyorAttachmentHologram::CanNudgeHologram at 00007FFF84B657F0
+Size of member pointer is 16
+Attempting to discover AFGPipeAttachmentHologram::CanNudgeHologram at 00007FFFA2E1A4B0
+Attempting to resolve virtual function AFGPipeAttachmentHologram::CanNudgeHologram. This adjustment: 0x0, virtual function table offset: 0x8e0
+Successfully resolved virtual function thunk AFGPipeAttachmentHologram::CanNudgeHologram at 00007FFFA2E1A4B0 to function implementation at 00007FFF84BB58D0
+Hooking function AFGPipeAttachmentHologram::CanNudgeHologram: Provided address: 00007FFFA2E1A4B0, resolved address: 00007FFF84BB58D0
+Overriding AFGPipeAttachmentHologram::CanNudgeHologram at 00007FFF84BB58D0 to 00007FFFA2E1CC80
+Successfully hooked function AFGPipeAttachmentHologram::CanNudgeHologram at 00007FFF84BB58D0
+Size of member pointer is 16
+Attempting to discover AFGHologram::Scroll at 00007FFFA2E1A4BC
+Attempting to resolve virtual function AFGHologram::Scroll. This adjustment: 0x0, virtual function table offset: 0x7f0
+Successfully resolved virtual function thunk AFGHologram::Scroll at 00007FFFA2E1A4BC to function implementation at 00007FFF84BCA990
+Hooking function AFGHologram::Scroll: Provided address: 00007FFFA2E1A4BC, resolved address: 00007FFF84BCA990
+Overriding AFGHologram::Scroll at 00007FFF84BCA990 to 00007FFFA2E1CF70
+Successfully hooked function AFGHologram::Scroll at 00007FFF84BCA990
+Size of member pointer is 16
+Attempting to discover AFGRailroadSignalHologram::ConfigureActor at 00007FFFA2E1A4D4
+Attempting to resolve virtual function AFGRailroadSignalHologram::ConfigureActor. This adjustment: 0x0, virtual function table offset: 0xa30
+Successfully resolved virtual function thunk AFGRailroadSignalHologram::ConfigureActor at 00007FFFA2E1A4D4 to function implementation at 00007FFF84BB8950
+Hooking function AFGRailroadSignalHologram::ConfigureActor: Provided address: 00007FFFA2E1A4D4, resolved address: 00007FFF84BB8950
+Overriding AFGRailroadSignalHologram::ConfigureActor at 00007FFF84BB8950 to 00007FFFA2E1D330
+Successfully hooked function AFGRailroadSignalHologram::ConfigureActor at 00007FFF84BB8950
+Size of member pointer is 16
+Attempting to discover AFGBuildableHologram::ConfigureActor at 00007FFFA2DD8970
+Attempting to resolve virtual function AFGBuildableHologram::ConfigureActor. This adjustment: 0x0, virtual function table offset: 0xa30
+Successfully resolved virtual function thunk AFGBuildableHologram::ConfigureActor at 00007FFFA2DD8970 to function implementation at 00007FFF84B66D80
+Hooking function AFGBuildableHologram::ConfigureActor: Provided address: 00007FFFA2DD8970, resolved address: 00007FFF84B66D80
+Overriding AFGBuildableHologram::ConfigureActor at 00007FFF84B66D80 to 00007FFFA2DDABA0
+Successfully hooked function AFGBuildableHologram::ConfigureActor at 00007FFF84B66D80
+Size of member pointer is 16
+Attempting to discover AFGBuildableHologram::OnRep_DesiredZoop at 00007FFF84B7FB50
+Hooking function AFGBuildableHologram::OnRep_DesiredZoop: Provided address: 00007FFF84B7FB50, resolved address: 00007FFF84B7FB50
+Overriding AFGBuildableHologram::OnRep_DesiredZoop at 00007FFF84B7FB50 to 00007FFFA2DDA9E0
+Successfully hooked function AFGBuildableHologram::OnRep_DesiredZoop at 00007FFF84B7FB50
+Size of member pointer is 16
+Attempting to discover AFGBuildableHologram::SetZoopAmount at 00007FFF84B87AC0
+Hooking function AFGBuildableHologram::SetZoopAmount: Provided address: 00007FFF84B87AC0, resolved address: 00007FFF84B87AC0
+Overriding AFGBuildableHologram::SetZoopAmount at 00007FFF84B87AC0 to 00007FFFA2DDA810
+Successfully hooked function AFGBuildableHologram::SetZoopAmount at 00007FFF84B87AC0
+Size of member pointer is 8
+Attempting to discover UFGBuildGunStateBuild::OnZoopUpdated at 00007FFF8431C130
+Hooking function UFGBuildGunStateBuild::OnZoopUpdated: Provided address: 00007FFF8431C130, resolved address: 00007FFF8431C130
+Overriding UFGBuildGunStateBuild::OnZoopUpdated at 00007FFF8431C130 to 00007FFFA2DDB850
+Successfully hooked function UFGBuildGunStateBuild::OnZoopUpdated at 00007FFF8431C130
+Size of member pointer is 8
+Attempting to discover UFGBuildGunState::SecondaryFire at 00007FFF8431C340
+Hooking function UFGBuildGunState::SecondaryFire: Provided address: 00007FFF8431C340, resolved address: 00007FFF8431C340
+Overriding UFGBuildGunState::SecondaryFire at 00007FFF8431C340 to 00007FFFA2DDB690
+Successfully hooked function UFGBuildGunState::SecondaryFire at 00007FFF8431C340
+Size of member pointer is 16
+Attempting to discover AFGBuildableHologram::GetBaseCostMultiplier at 00007FFFA2DD8964
+Attempting to resolve virtual function AFGBuildableHologram::GetBaseCostMultiplier. This adjustment: 0x0, virtual function table offset: 0x888
+Successfully resolved virtual function thunk AFGBuildableHologram::GetBaseCostMultiplier at 00007FFFA2DD8964 to function implementation at 00007FFF84B789B0
+Hooking function AFGBuildableHologram::GetBaseCostMultiplier: Provided address: 00007FFFA2DD8964, resolved address: 00007FFF84B789B0
+Overriding AFGBuildableHologram::GetBaseCostMultiplier at 00007FFF84B789B0 to 00007FFFA2DDA520
+Successfully hooked function AFGBuildableHologram::GetBaseCostMultiplier at 00007FFF84B789B0
+Size of member pointer is 16
+Attempting to discover AFGFoundationHologram::CreateDefaultFoundationZoop at 00007FFF84B6E730
+Hooking function AFGFoundationHologram::CreateDefaultFoundationZoop: Provided address: 00007FFF84B6E730, resolved address: 00007FFF84B6E730
+Overriding AFGFoundationHologram::CreateDefaultFoundationZoop at 00007FFF84B6E730 to 00007FFFA2DDAD80
+Successfully hooked function AFGFoundationHologram::CreateDefaultFoundationZoop at 00007FFF84B6E730
+Size of member pointer is 16
+Attempting to discover AFGHologram::ValidatePlacementAndCost at 00007FFF84BE8440
+Hooking function AFGHologram::ValidatePlacementAndCost: Provided address: 00007FFF84BE8440, resolved address: 00007FFF84BE8440
+Overriding AFGHologram::ValidatePlacementAndCost at 00007FFF84BE8440 to 00007FFFA2DDB130
+Successfully hooked function AFGHologram::ValidatePlacementAndCost at 00007FFF84BE8440
+Size of member pointer is 16
+Attempting to discover AFGHologram::Scroll at 00007FFFA2DD8994
+Attempting to resolve virtual function AFGHologram::Scroll. This adjustment: 0x0, virtual function table offset: 0x7f0
+Successfully resolved virtual function thunk AFGHologram::Scroll at 00007FFFA2DD8994 to function implementation at 00007FFFA2E1CF70
+Hooking function AFGHologram::Scroll: Provided address: 00007FFFA2DD8994, resolved address: 00007FFFA2E1CF70
+Overriding AFGHologram::Scroll at 00007FFFA2E1CF70 to 00007FFFA2DDAF50
+Successfully hooked function AFGHologram::Scroll at 00007FFFA2E1CF70
+Size of member pointer is 16
+Attempting to discover AFGHologram::Destroyed at 00007FFFA2DD8988
+Attempting to resolve virtual function AFGHologram::Destroyed. This adjustment: 0x0, virtual function table offset: 0x658
+Successfully resolved virtual function thunk AFGHologram::Destroyed at 00007FFFA2DD8988 to function implementation at 00007FFF84BBADB0
+Hooking function AFGHologram::Destroyed: Provided address: 00007FFFA2DD8988, resolved address: 00007FFF84BBADB0
+Overriding AFGHologram::Destroyed at 00007FFF84BBADB0 to 00007FFFA2DDB4D0
+Successfully hooked function AFGHologram::Destroyed at 00007FFF84BBADB0
+Size of member pointer is 16
+Attempting to discover AFGHologram::BeginPlay at 00007FFFA2DD897C
+Attempting to resolve virtual function AFGHologram::BeginPlay. This adjustment: 0x0, virtual function table offset: 0x3b0
+Successfully resolved virtual function thunk AFGHologram::BeginPlay at 00007FFFA2DD897C to function implementation at 00007FFF84BB31A0
+Hooking function AFGHologram::BeginPlay: Provided address: 00007FFFA2DD897C, resolved address: 00007FFF84BB31A0
+Overriding AFGHologram::BeginPlay at 00007FFF84BB31A0 to 00007FFFA2DDB310
+Successfully hooked function AFGHologram::BeginPlay at 00007FFF84BB31A0
+Satisfactory Mod Loader v.3.12.0+827 pre-initializing...
+Build Date: Jun  6 2026 16:29:13
+Successfully loaded SML configuration from disk
+Version check passed successfully! Game Changelist: 493833
+Pre-initialization finished!
+43343 objects as part of root set at end of initial load.
+9 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+CloseDisregardForGC: 43343/43343 objects in disregard for GC pool
+PassLoadingScreenWindowBackToGame failed.  No Window
+Initializing Engine...
+Initializing game features subsystem
+Sentry plugin auto initialization: false
+Using current project name and version as Sentry release.
+Using current build configuration as Sentry environment.
+using database path "C:\Users\cheva\AppData\Local\FactoryGame\.sentry-native"
+starting transport
+starting background worker thread
+starting backend
+starting crashpad backend with handler "C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Sentry\Binaries\Win64\crashpad_handler.exe"
+using minidump URL "https://o4510000618995712.ingest.de.sentry.io:443/api/4510000622141520/minidump/?sentry_client=sentry.native.unreal/0.10.1&sentry_key=ce9e39afc0e16e3b66a9b309fe98f23b"
+background worker thread started
+registering crashpad WER handler "C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Sentry\Binaries\Win64\crashpad_wer.dll"
+started crashpad client handler
+processing and pruning old runs
+Sentry initialization completed with result 0 (0 on success).
+Using current build configuration as Sentry environment.
+Using current project name and version as Sentry release.
+Attached monitors:
+    resolution: 1600x1000, work area: (0, 0) -> (1600, 952), device: '\\.\DISPLAY1' [PRIMARY]
+Found 1 attached monitors.
+Gathering driver information using Windows Setup API
+Ignoring PrimaryAssetType Profiling - Conflicts with Map - Asset: Map_UI-Profile
+Scanning for built-in game feature plugins
+Loading 233 builtins. Not Amortized
+Game feature '../../../FactoryGame/Mods/GameFeatures/BlueprintHighlighted/BlueprintHighlighted.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'BlueprintHighlighted' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:BlueprintHighlighted: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'BlueprintHighlighted' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/FlashlightSettings/FlashlightSettings.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'FlashlightSettings' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:FlashlightSettings: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'FlashlightSettings' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/CrashSiteBeacons/CrashSiteBeacons.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'CrashSiteBeacons' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:CrashSiteBeacons: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'CrashSiteBeacons' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/HighlightScannedObject/HighlightScannedObject.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'HighlightScannedObject' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:HighlightScannedObject: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'HighlightScannedObject' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/InfiniteNudge/InfiniteNudge.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'InfiniteNudge' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:InfiniteNudge: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'InfiniteNudge' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/InfiniteZoop/InfiniteZoop.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'InfiniteZoop' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:InfiniteZoop: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'InfiniteZoop' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/NoSplash/NoSplash.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'NoSplash' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:NoSplash: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'NoSplash' transitioned successfully. Ending state: Active [Active, Active]
+Game feature '../../../FactoryGame/Mods/GameFeatures/SkyUI/SkyUI.uplugin' has no BuiltInInitialFeatureState key, using legacy BuiltInAutoRegister(1)/BuiltInAutoLoad(1)/BuiltInAutoActivate(1) values to arrive at initial state.
+Cannot mount plugin localization for 'SkyUI' as the plugin isn't explicitly loaded.
+Game feature 'SkyUI' transitioned successfully. Ending state: Active [Active, Active]
+Cannot mount plugin localization for 'minerplus' as the plugin isn't explicitly loaded.
+Invalid Primary Asset Type FGGameFeatureData:minerplus: ChangeBundleStateForPrimaryAssets failed to find NameData
+Game feature 'minerplus' transitioned successfully. Ending state: Active [Active, Active]
+BuiltInGameFeaturePlugins loaded. -  0.079 s
+Set ProjectVersion to 0. Version Checksum will be recalculated on next use.
+Texture streaming: Enabled
+Initializing Audio Device Manager...
+Loading Default Audio Settings Objects...
+LoadPackage: SkipPackage: /Engine/EngineSounds/Master (0x2E389D768EDF70E6) - The package to load does not exist on disk or in the loader
+Не удалось найти объект 'Object /Engine/EngineSounds/Master.Master'
+Failed to load Default SoundClassObject from path '/Engine/EngineSounds/Master.Master'.  Attempting to fall back to engine default.
+Не удалось найти объект 'Object Нет./Engine/EngineSounds/Master'
+Failed to load Default SoundClassObject from path '/Engine/EngineSounds/Master'.
+No default MediaSoundClassObject specified (or failed to load).
+No default SoundConcurrencyObject specified (or failed to load).
+Audio Device Manager Initialized
+Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+Audio Mixer Platform Settings:
+	Sample Rate:						  48000
+	Callback Buffer Frame Size Requested: 1024
+	Callback Buffer Frame Size To Use:	  1024
+	Number of buffers to queue:			  1
+	Max Channels (voices):				  32
+	Number of Async Source Workers:		  4
+AudioDevice MaxSources: 32
+Audio Spatialization Plugin: None (built-in).
+Audio Reverb Plugin: None (built-in).
+Audio Occlusion Plugin: None (built-in).
+Initializing audio mixer using platform API: 'XAudio2'
+Using Audio Hardware Device Headphones (Realtek(R) Audio)
+Initializing Sound Submixes...
+LoadPackage: SkipPackage: /Engine/EngineSounds/Submixes/MasterSubmixDefault (0x41D2CF6042D559B0) - The package to load does not exist on disk or in the loader
+Не удалось найти объект 'Object /Engine/EngineSounds/Submixes/MasterSubmixDefault.MasterSubmixDefault'
+Submix unset or invalid in 'AudioSettings': Using engine asset 'MasterSubmixDefault'
+Failed to load submix from engine asset path '/Engine/EngineSounds/Submixes/MasterSubmixDefault.MasterSubmixDefault'. Creating 'MasterSubmixDefault' as a stub.
+Creating Master Submix 'MasterSubmixDefault'
+LoadPackage: SkipPackage: /Engine/EngineSounds/Submixes/MasterReverbSubmixDefault (0x5773467E2BCA0CD) - The package to load does not exist on disk or in the loader
+Не удалось найти объект 'Object /Engine/EngineSounds/Submixes/MasterReverbSubmixDefault.MasterReverbSubmixDefault'
+Submix unset or invalid in 'AudioSettings': Using engine asset 'MasterReverbSubmixDefault'
+Failed to load submix from engine asset path '/Engine/EngineSounds/Submixes/MasterReverbSubmixDefault.MasterReverbSubmixDefault'. Creating 'MasterReverbSubmixDefault' as a stub.
+Creating Master Submix 'MasterReverbSubmixDefault'
+FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+FAudioDevice initialized with ID 1.
+DLSS is supported but not loaded, waiting for the module to be loaded before initializing user settings
+Initializing Audio Bus Subsystem for audio device with ID 1
+IFGOptionInterfaceImpl::GetOptionValue - Could not find user setting with id 't.MaxFPS'
+Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.000058 seconds
+[SM_Beanata_01] Mesh is marked for CPU read.
+Steam User is subscribed 1
+[AppId: 526870] Client API initialized 1
+0000021FA3616A40 Steam online services instance initialize
+Initialized 'STEAM' online backend
+Initialized 'Epic' online backend
+HandleNetworkConnectionStatusChanged(Context:Platform, ServiceName:, OldStatus:Connected, NewStatus:Connected)
+HandleNetworkConnectionStatusChanged(Context:CrossPlay, ServiceName:, OldStatus:Connected, NewStatus:Connected)
+List of loaded mods:
+AdvancedLogistics: 0.3.13
+minerplus: 4.1.5
+ContainerScreen: 1.0.38
+ContainerWithScreen: 1.0.4
+CrashSiteBeacons: 3.1.0
+MovePlayerInventory: 1.4.1
+DaisyChainPowerCables: 2.0.20
+DeepMining: 2.0.9
+FasterManualCraftingRedux: 2.4.1
+FlashlightSettings: 1.2.0
+FloorHole: 2.0.32
+InfiniteNudge: 3.0.4
+InfiniteZoop: 1.10.8
+InventorySpace2: 2.0.11
+MAMTips: 1.9.1
+moidu21_lib: 1.0.0
+NoSplash: 1.1.0
+HighlightScannedObject: 1.1.0
+OrganizedCrates: 2.0.11
+BlueprintHighlighted: 1.4.1
+FactoryGame: 493833.0.0
+SML: 3.12.0
+SkyUI: 1.0.18
+SmallAwesomeSink: 1.0.15
+TenTimesAwesomePoints: 1.0.8
+UndergroundBelts: 3.0.28
+UtilityMod: 1.0.0
+[PowerSnail] Mesh is marked for CPU read.
+[PowerSnail] Mesh is marked for CPU read.
+[PowerSnail] Mesh is marked for CPU read.
+Loading a material resource None with an invalid ShaderMap!
+Loading a material resource None with an invalid ShaderMap!
+Loading a material resource None with an invalid ShaderMap!
+Loading a material resource None with an invalid ShaderMap!
+Tried to access an uncooked shader map ID in a cooked application
+Invalid shader map ID caching shaders for 'Mat-Diamond', will use default material.
+Can't compile Mat-Diamond with cooked content, will use default material instead
+[AssetLog] C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\DeepMining\Content\Assets\Mat-Diamond: Failed to compile Material for platform SF_VULKAN_SM6, Default Material will be used in game.
+
+Duplicating object 'BP_ConfigPropertySection_C /UtilityMod/UtilityModConfig.Default__UtilityModConfig_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertyArray_C_0.BP_ConfigPropertySection_C_10' that's still being async loaded
+Duplicating object 'BP_ConfigPropertySection_C /UtilityMod/UtilityModConfig.Default__UtilityModConfig_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertyArray_C_0.BP_ConfigPropertySection_C_11' that's still being async loaded
+Duplicating object 'BP_ConfigPropertySection_C /UtilityMod/UtilityModConfig.Default__UtilityModConfig_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertyArray_C_0.BP_ConfigPropertySection_C_12' that's still being async loaded
+Duplicating object 'BP_ConfigPropertySection_C /UtilityMod/UtilityModConfig.Default__UtilityModConfig_C:BP_ConfigPropertySection_C_0.BP_ConfigPropertyArray_C_0.BP_ConfigPropertySection_C_13' that's still being async loaded
+Discovered 16 game instance modules
+Dispatching lifecycle event CONSTRUCTION to game instance modules
+Dispatching lifecycle event INITIALIZATION to game instance modules
+Registering configuration /FasterManualCraftingRedux/FMC_FasterManualCraftingReduxConfig.FMC_FasterManualCraftingReduxConfig_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/FasterManualCraftingRedux.cfg
+Registering configuration /MovePlayerInventory/Configuration/MovePlayerInventory_Configuration.MovePlayerInventory_Configuration_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/MovePlayerInventory.cfg
+Registering configuration /MAMTips/Configuration/MAMTips_Configuration.MAMTips_Configuration_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/MAMTips.cfg
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.MAMTips.WidgetBlueprintHookData_0 on WidgetBlueprint /MAMTips/Widgets/ResourceSinkShop/Widget_ResourceSinkShop_Item_InjectCartButton.Widget_ResourceSinkShop_Item_InjectCartButton_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.MAMTips.WidgetBlueprintHookData_1 on WidgetBlueprint /MAMTips/Widgets/Widget_WhatMod_SinkShop.Widget_WhatMod_SinkShop_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_1 on WidgetBlueprint /SML/Interface/UI/Menu/MainMenu/Widget_MainMenuButtonExtensions.Widget_MainMenuButtonExtensions_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_2 on WidgetBlueprint /SML/Interface/UI/Menu/Mods/Widget_ModList.Widget_ModList_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_10 on WidgetBlueprint /SML/Interface/UI/Menu/PauseMenu/Widget_PauseMenuButtonMods.Widget_PauseMenuButtonMods_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_11 on WidgetBlueprint /SML/Interface/UI/Menu/Mods/Widget_ModList.Widget_ModList_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_7 on WidgetBlueprint /SML/Interface/UI/Menu/PlayMenu/Widget_PlayMenu_SML.Widget_PlayMenu_SML_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_6 on WidgetBlueprint /SML/Interface/UI/Menu/PauseMenu/Widget_PauseMenuButtonSessionSettings.Widget_PauseMenuButtonSessionSettings_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_5 on WidgetBlueprint /SML/Interface/UI/Menu/PauseMenu/Widget_PauseMenu_SessionSettings.Widget_PauseMenu_SessionSettings_C
+Installed widget blueprint hook /Engine/Transient.FGGameEngine_2147482615:FGGameInstance_2147482543.GameInstanceModuleManager_2147482421.SML.WidgetBlueprintHookData_4 on WidgetBlueprint /SML/Interface/UI/Menu/InfoLabel/Widget_InfoLabels.Widget_InfoLabels_C
+Registering configuration /UtilityMod/UtilityModConfig.UtilityModConfig_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/UtilityMod.cfg
+Registering configuration /FlashlightSettings/FlashlightSettings_ModConfig.FlashlightSettings_ModConfig_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/FlashlightSettings.cfg
+Registering configuration /HighlightScannedObject/HSO_Configuration.HSO_Configuration_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/HighlightScannedObject.cfg
+Registering configuration /InfiniteNudge/InfiniteNudge_Configuration.InfiniteNudge_Configuration_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/InfiniteNudge.cfg
+Registering configuration /InfiniteZoop/InfiniteZoop_Configuration.InfiniteZoop_Configuration_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/InfiniteZoop.cfg
+Registering configuration /minerplus/content/config/minerplus_configs.minerplus_configs_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/minerplus.cfg
+Registering configuration /SkyUI/SkyUI_Config.SkyUI_Config_C
+Successfully loaded configuration from ../../../FactoryGame/Configs/SkyUI.cfg
+Dispatching lifecycle event POST_INITIALIZATION to game instance modules
+Importing test saves....
+Test saves imported!....
+MaxNumBackupsaves: 25
+Audio Device (ID: 1) registered with world 'Untitled'.
+Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+Game Engine Initialized.
+Set ProjectVersion to ++FactoryGame+rel-main-1.2.0-CL-493833. Version Checksum will be recalculated on next use.
+Parsing ExecCmds
+Performing mod loader initialization
+Size of member pointer is 16
+Attempting to discover UWorld::WelcomePlayer at 00007FFFBA180590
+Hooking function UWorld::WelcomePlayer: Provided address: 00007FFFBA180590, resolved address: 00007FFFBA180590
+Overriding UWorld::WelcomePlayer at 00007FFFBA180590 to 00007FFFA2FB9370
+Successfully hooked function UWorld::WelcomePlayer at 00007FFFBA180590
+Size of member pointer is 16
+Attempting to discover UPendingNetGame::SendInitialJoin at 00007FFFB9B42FE0
+Hooking function UPendingNetGame::SendInitialJoin: Provided address: 00007FFFB9B42FE0, resolved address: 00007FFFB9B42FE0
+Overriding UPendingNetGame::SendInitialJoin at 00007FFFB9B42FE0 to 00007FFFA2FB91B0
+Successfully hooked function UPendingNetGame::SendInitialJoin at 00007FFFB9B42FE0
+Size of member pointer is 16
+Attempting to discover UWorld::NotifyControlMessage at 00007FFFA2FB3A1C
+Attempting to resolve virtual function UWorld::NotifyControlMessage. This adjustment: 0x28, virtual function table offset: 0x18
+Successfully resolved virtual function thunk UWorld::NotifyControlMessage at 00007FFFA2FB3A1C to function implementation at 00007FFFBA166040
+Hooking function UWorld::NotifyControlMessage: Provided address: 00007FFFA2FB3A1C, resolved address: 00007FFFBA166040
+Overriding UWorld::NotifyControlMessage at 00007FFFBA166040 to 00007FFFA2FB9550
+Successfully hooked function UWorld::NotifyControlMessage at 00007FFFBA166040
+Size of member pointer is 16
+Attempting to discover UPendingNetGame::NotifyControlMessage at 00007FFFA2FB3A1C
+Attempting to resolve virtual function UPendingNetGame::NotifyControlMessage. This adjustment: 0x28, virtual function table offset: 0x18
+Successfully resolved virtual function thunk UPendingNetGame::NotifyControlMessage at 00007FFFA2FB3A1C to function implementation at 00007FFFB9B37D20
+Hooking function UPendingNetGame::NotifyControlMessage: Provided address: 00007FFFA2FB3A1C, resolved address: 00007FFFB9B37D20
+Overriding UPendingNetGame::NotifyControlMessage at 00007FFFB9B37D20 to 00007FFFA2FB8F90
+Successfully hooked function UPendingNetGame::NotifyControlMessage at 00007FFFB9B37D20
+Size of member pointer is 16
+Attempting to discover APlayerController::EnableCheats at 00007FFFA2FB3A10
+Attempting to resolve virtual function APlayerController::EnableCheats. This adjustment: 0x0, virtual function table offset: 0xb98
+Successfully resolved virtual function thunk APlayerController::EnableCheats at 00007FFFA2FB3A10 to function implementation at 00007FFFB9C9EEF3
+Hooking function APlayerController::EnableCheats: Provided address: 00007FFFA2FB3A10, resolved address: 00007FFFB9C9EEF3
+Overriding APlayerController::EnableCheats at 00007FFFB9C9EEF3 to 00007FFFA2FB8DD0
+Successfully hooked function APlayerController::EnableCheats at 00007FFFB9C9EEF3
+Registering message type SML:1
+Initialization finished!
+OnPostEngineInit has been broadcasted successfully.
+FDLSSModule::StartupModule Enter
+PluginBaseDir ../../../FactoryGame/Plugins/DLSS
+NGXBinariesDir ../../../FactoryGame/Plugins/DLSS/Binaries/ThirdParty/Win64/
+GDynamicRHIName AMD Vulkan
+NVIDIA NGX DLSS requires an NVIDIA RTX series graphics card
+NVIDIA NGX DLSS supported SR=0 RR=0
+FDLSSModule::StartupModule Leave
+Initializing user settings
+FSynthBenchmark (V0.95):  requested WorkScale=10.00
+===============
+Main Processor:
+         ... 0.026146 s/Run 'RayIntersect'
+         ... 0.026507 s/Run 'Fractal'
+
+  CompiledTarget_x_Bits: 64
+  UE_BUILD_SHIPPING: 1
+  UE_BUILD_TEST: 0
+  UE_BUILD_DEBUG: 0
+  TotalPhysicalGBRam: 14
+  NumberOfCores (physical): 8
+  NumberOfCores (logical): 16
+  CPU Perf Index 0: 97.9 (weight 1.00)
+  CPU Perf Index 1: 107.9 (weight 1.50)
+ 
+Graphics:
+  Adapter Name: 'AMD Radeon(TM) Graphics'
+  (On Optimus the name might be wrong, memory should be ok)
+  Vendor Id: 0x1002
+  Device Id: 0x1681
+  Device Revision: 0x0

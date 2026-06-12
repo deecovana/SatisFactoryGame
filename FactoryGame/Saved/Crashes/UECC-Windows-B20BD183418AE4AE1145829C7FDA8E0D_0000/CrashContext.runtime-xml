@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>88D703434EBC2B49AE67028171AEBD33</ExecutionGuid>
+<CrashGUID>UECC-Windows-B20BD183418AE4AE1145829C7FDA8E0D_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000000</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>1628</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>true</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-FactoryGame</GameName>
+<ExecutableName>FactoryGameSteam-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.6.1-493833+++FactoryGame+rel-main-1.2.0</EngineVersion>
+<EngineCompatibleVersion>5.6.1-493833+++FactoryGame+rel-main-1.2.0</EngineCompatibleVersion>
+<CommandLine> FactoryGame -NO_EOS_OVERLAY</CommandLine>
+<LanguageLCID>25</LanguageLCID>
+<AppDefaultLocale>ru-RU</AppDefaultLocale>
+<BuildVersion>++FactoryGame+rel-main-1.2.0-CL-493833</BuildVersion>
+<Symbols>**FactoryGame*rel-main-1.2.0-CL-493833-Win64-Shipping</Symbols>
+<IsUERelease>true</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/Engine/Binaries/Win64/</BaseDir>
+<RootDir>C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/</RootDir>
+<MachineId>3291CA854B01B3D45F838CBC4BD7329D</MachineId>
+<LoginId>3291ca854b01b3d45f838cbc4bd7329d</LoginId>
+<EpicAccountId>1ac59eb6b17b493291382fc170a1d4b3</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 7 7735HS with Radeon Graphics        </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>AMD Radeon(TM) Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (25H2) [10.0.26200.8117]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>14701584384</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>27049615360</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>14</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+amdvlk64                                   0x00007fffc26f0000 + 21ec5e5         
+amdvlk64                                   0x00007fffc26f0000 + 223444a         
+amdvlk64                                   0x00007fffc26f0000 + 238eee4         
+amdvlk64                                   0x00007fffc26f0000 + 237f3a5         
+amdvlk64                                   0x00007fffc26f0000 + 2309de6         
+amdvlk64                                   0x00007fffc26f0000 + 21d3736         
+amdvlk64                                   0x00007fffc26f0000 + 21e974b         
+amdvlk64                                   0x00007fffc26f0000 + 2c6379          
+amdvlk64                                   0x00007fffc26f0000 + 1b7510          
+amdvlk64                                   0x00007fffc26f0000 + 1bc95f          
+amdvlk64                                   0x00007fffc26f0000 + 1f29bd          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</PCallStack>
+<PCallStackHash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStackHash>
+<Threads><Thread><CallStack>ntdll                                        0x00007ff84ff00000 + 162204          
+ntdll                                        0x00007ff84ff00000 + a593            
+ntdll                                        0x00007ff84ff00000 + b240            
+ntdll                                        0x00007ff84ff00000 + 153e2           
+ntdll                                        0x00007ff84ff00000 + 155f7           
+KERNELBASE                                   0x00007ff84d020000 + 52ed6           
+gameoverlayrenderer64                        0x00007ff82f060000 + a9248           
+gameoverlayrenderer64                        0x00007ff82f060000 + a9c9f           
+gameoverlayrenderer64                        0x00007ff82f060000 + ab153           
+gameoverlayrenderer64                        0x00007ff82f060000 + ab60b           
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 385b0b          
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 37a336          
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 2f2ba1          
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 2f6420          
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 2f56a8          
+FactoryGameSteam-Engine-Win64-Shipping       0x00007fffb8bc0000 + 64a4d8          
+FactoryGameSteam-Engine-Win64-Shipping       0x00007fffb8bc0000 + 647b1e          
+FactoryGameSteam-Engine-Win64-Shipping       0x00007fffb8bc0000 + 646d18          
+FactoryGameSteam-Engine-Win64-Shipping       0x00007fffb8bc0000 + 167fcfe         
+FactoryGameSteam-Engine-Win64-Shipping       0x00007fffb8bc0000 + 167d8ae         
+FactoryGameSteam-Engine-Win64-Shipping       0x00007fffb8bc0000 + ad4756          
+FactoryGameSteam-FactoryGame-Win64-Shipping  0x00007fff84100000 + 8221ce          
+FactoryGameSteam-Win64-Shipping              0x00007ff76b840000 + 1cfb            
+FactoryGameSteam-Win64-Shipping              0x00007ff76b840000 + ee53            
+FactoryGameSteam-Win64-Shipping              0x00007ff76b840000 + efaa            
+FactoryGameSteam-Win64-Shipping              0x00007ff76b840000 + 10104           
+FactoryGameSteam-Win64-Shipping              0x00007ff76b840000 + 19e24           
+FactoryGameSteam-Win64-Shipping              0x00007ff76b840000 + 1a672           
+KERNEL32                                     0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6996</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1533be          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6292</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1533be          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14472</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11556</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13572</ThreadID>
+<ThreadName>Background Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14316</ThreadID>
+<ThreadName>Background Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15168</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14152</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13944</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15728</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1788</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13952</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12836</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14140</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9412</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12688</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 742b0           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67cb7           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 807cc           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 6238a           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3688</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 67ada           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 7affb           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 62383           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7188</ThreadID>
+<ThreadName>Foreground Worker (Standby #0)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 1620e4          
+ntdll                                 0x00007ff84ff00000 + d1014           
+KERNELBASE                            0x00007ff84d020000 + 46f01           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 153635          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14272</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 1620e4          
+ntdll                                 0x00007ff84ff00000 + d1014           
+KERNELBASE                            0x00007ff84d020000 + 46f01           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 2bf54d          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7616</ThreadID>
+<ThreadName>FAsyncWriter_FactoryGame</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                  0x00007ff84ff00000 + 161ae4          
+KERNELBASE                             0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping   0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Media-Win64-Shipping  0x00007ff81d6b0000 + 4401            
+FactoryGameSteam-Core-Win64-Shipping   0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping   0x00007fffbcac0000 + 3939e9          
+KERNEL32                               0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5512</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 1625b4          
+KERNELBASE                            0x00007ff84d020000 + 41a93           
+FactoryGameSteam-HTTP-Win64-Shipping  0x00007fffb7ca0000 + 1d97f4          
+FactoryGameSteam-HTTP-Win64-Shipping  0x00007fffb7ca0000 + 1d785d          
+FactoryGameSteam-HTTP-Win64-Shipping  0x00007fffb7ca0000 + 9fe10           
+FactoryGameSteam-HTTP-Win64-Shipping  0x00007fffb7ca0000 + 9f5ab           
+FactoryGameSteam-HTTP-Win64-Shipping  0x00007fffb7ca0000 + 9f646           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13196</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                            0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                       0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping             0x00007fffbcac0000 + 392824          
+FactoryGameSteam-OnlineSubsystem-Win64-Shipping  0x00007fffb17f0000 + 3ea56           
+FactoryGameSteam-Core-Win64-Shipping             0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping             0x00007fffbcac0000 + 3939e9          
+KERNEL32                                         0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3724</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 1656b4          
+ntdll                                 0x00007ff84ff00000 + 9c083           
+KERNELBASE                            0x00007ff84d020000 + e4148           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 23751c          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 7faa9           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 7f4ac           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 2c5696          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11964</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1533be          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12580</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1533be          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13948</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1533be          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8484</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1533be          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13156</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                    0x00007ff84ff00000 + 161ae4          
+KERNELBASE                               0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping     0x00007fffbcac0000 + 392824          
+FactoryGameSteam-PakFile-Win64-Shipping  0x00007ff81d6d0000 + 5c401           
+FactoryGameSteam-Core-Win64-Shipping     0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping     0x00007fffbcac0000 + 3939e9          
+KERNEL32                                 0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7732</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 207f43          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7464</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                      0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                 0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 392824          
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + d3ddf           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6820</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                      0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                 0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 392824          
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + d3ddf           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15400</ThreadID>
+<ThreadName>RHISubmissionThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                       0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                  0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 75acb           
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + f73a1           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3939e9          
+KERNEL32                                    0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10692</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 41c0b4          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3e4c05          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3e2da5          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3addbb          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3aeec5          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + af7b4           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 9d07b           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 236765          
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + daf37           
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + 12c854          
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + 12296e          
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + 15f878          
+FactoryGameSteam-Engine-Win64-Shipping      0x00007fffb8bc0000 + 121abd2         
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + cdf37           
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + dfd85           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 7df01           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 75ade           
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + f6e86           
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + f740a           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3939e9          
+KERNEL32                                    0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15732</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                       0x00007ff84ff00000 + 1620e4          
+ntdll                                       0x00007ff84ff00000 + d1014           
+KERNELBASE                                  0x00007ff84d020000 + 46f01           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 39025c          
+FactoryGameSteam-RenderCore-Win64-Shipping  0x00007ff82e730000 + f7538           
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping        0x00007fffbcac0000 + 3939e9          
+KERNEL32                                    0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6720</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 68eb2           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 7af8e           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 62383           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9720</ThreadID>
+<ThreadName>Background Worker (Standby #0)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                 0x00007ff84ff00000 + 161ae4          
+KERNELBASE                            0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 392824          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 68eb2           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 7af8e           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 62383           
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 1536d3          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping  0x00007fffbcac0000 + 3939e9          
+KERNEL32                              0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6192</ThreadID>
+<ThreadName>Background Worker (Standby #1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                          0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                     0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping           0x00007fffbcac0000 + 392824          
+FactoryGameSteam-PreLoadScreen-Win64-Shipping  0x00007ff83d130000 + 15e7a           
+FactoryGameSteam-PreLoadScreen-Win64-Shipping  0x00007ff83d130000 + 1577a           
+FactoryGameSteam-Core-Win64-Shipping           0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping           0x00007fffbcac0000 + 3939e9          
+KERNEL32                                       0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11888</ThreadID>
+<ThreadName>SlateLoadingThread0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                        0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                   0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 392824          
+FactoryGameSteam-CoreUObject-Win64-Shipping  0x00007fffbaf40000 + 136ad4          
+FactoryGameSteam-CoreUObject-Win64-Shipping  0x00007fffbaf40000 + 136aa4          
+FactoryGameSteam-CoreUObject-Win64-Shipping  0x00007fffbaf40000 + 3db6ab          
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping         0x00007fffbcac0000 + 3939e9          
+KERNEL32                                     0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10088</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 8c6812          
+amdvlk64                                   0x00007fffc26f0000 + 8d7906          
+amdvlk64                                   0x00007fffc26f0000 + 8d6321          
+amdvlk64                                   0x00007fffc26f0000 + 7e71cc          
+amdvlk64                                   0x00007fffc26f0000 + 8d473c          
+amdvlk64                                   0x00007fffc26f0000 + 5fea1b          
+amdvlk64                                   0x00007fffc26f0000 + 5ffcd4          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2432</ThreadID>
+<ThreadName>PSOPrecompilePool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                      0x00007ff84ff00000 + 161ae4          
+KERNELBASE                                 0x00007ff84d020000 + 3b1bf           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 38bcbd          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 5834ee          
+VCRUNTIME140                               0x00007ff83b380000 + f55d            
+ntdll                                      0x00007ff84ff00000 + 16619f          
+ntdll                                      0x00007ff84ff00000 + 12397           
+ntdll                                      0x00007ff84ff00000 + 165ade          
+amdvlk64                                   0x00007fffc26f0000 + 21ec5e5         
+amdvlk64                                   0x00007fffc26f0000 + 223444a         
+amdvlk64                                   0x00007fffc26f0000 + 238eee4         
+amdvlk64                                   0x00007fffc26f0000 + 237f3a5         
+amdvlk64                                   0x00007fffc26f0000 + 2309de6         
+amdvlk64                                   0x00007fffc26f0000 + 21d3736         
+amdvlk64                                   0x00007fffc26f0000 + 21e974b         
+amdvlk64                                   0x00007fffc26f0000 + 2c6379          
+amdvlk64                                   0x00007fffc26f0000 + 1b7510          
+amdvlk64                                   0x00007fffc26f0000 + 1bc95f          
+amdvlk64                                   0x00007fffc26f0000 + 1f29bd          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>8764</ThreadID>
+<ThreadName>PSOPrecompilePool #1</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + ac7cac          
+amdvlk64                                   0x00007fffc26f0000 + ac7e52          
+amdvlk64                                   0x00007fffc26f0000 + ac9fe0          
+amdvlk64                                   0x00007fffc26f0000 + ac8b8d          
+amdvlk64                                   0x00007fffc26f0000 + aa0932          
+amdvlk64                                   0x00007fffc26f0000 + aa1e0b          
+amdvlk64                                   0x00007fffc26f0000 + 61e070          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11544</ThreadID>
+<ThreadName>PSOPrecompilePool #2</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + aca2c9          
+amdvlk64                                   0x00007fffc26f0000 + aca3b3          
+amdvlk64                                   0x00007fffc26f0000 + aa4ba0          
+amdvlk64                                   0x00007fffc26f0000 + acab46          
+amdvlk64                                   0x00007fffc26f0000 + dd2296          
+amdvlk64                                   0x00007fffc26f0000 + acd684          
+amdvlk64                                   0x00007fffc26f0000 + ac9854          
+amdvlk64                                   0x00007fffc26f0000 + ac86d0          
+amdvlk64                                   0x00007fffc26f0000 + aa0932          
+amdvlk64                                   0x00007fffc26f0000 + aa1e0b          
+amdvlk64                                   0x00007fffc26f0000 + 61e070          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15276</ThreadID>
+<ThreadName>PSOPrecompilePool #3</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + aa4ba2          
+amdvlk64                                   0x00007fffc26f0000 + 8c6e13          
+amdvlk64                                   0x00007fffc26f0000 + 8d7956          
+amdvlk64                                   0x00007fffc26f0000 + 8d6321          
+amdvlk64                                   0x00007fffc26f0000 + 8d7b00          
+amdvlk64                                   0x00007fffc26f0000 + 7e71cc          
+amdvlk64                                   0x00007fffc26f0000 + 8d473c          
+amdvlk64                                   0x00007fffc26f0000 + 5fea1b          
+amdvlk64                                   0x00007fffc26f0000 + 5ffcd4          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7456</ThreadID>
+<ThreadName>PSOPrecompilePool #4</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 8e19e6          
+amdvlk64                                   0x00007fffc26f0000 + 8e1c1e          
+amdvlk64                                   0x00007fffc26f0000 + 8e360b          
+amdvlk64                                   0x00007fffc26f0000 + 8e38f9          
+amdvlk64                                   0x00007fffc26f0000 + 8e3bdb          
+amdvlk64                                   0x00007fffc26f0000 + 6009a5          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3272</ThreadID>
+<ThreadName>PSOPrecompilePool #5</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 994f7a          
+amdvlk64                                   0x00007fffc26f0000 + 99477a          
+amdvlk64                                   0x00007fffc26f0000 + 8e236f          
+amdvlk64                                   0x00007fffc26f0000 + 8e329d          
+amdvlk64                                   0x00007fffc26f0000 + 8e3720          
+amdvlk64                                   0x00007fffc26f0000 + 8e38f9          
+amdvlk64                                   0x00007fffc26f0000 + 8e3bdb          
+amdvlk64                                   0x00007fffc26f0000 + 6009a5          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11268</ThreadID>
+<ThreadName>PSOPrecompilePool #6</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 855a61          
+amdvlk64                                   0x00007fffc26f0000 + 886c7e          
+amdvlk64                                   0x00007fffc26f0000 + 5ff5ea          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14292</ThreadID>
+<ThreadName>PSOPrecompilePool #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                      0x00007ff84ff00000 + 161e24          
+ntdll                                      0x00007ff84ff00000 + d3e0f           
+ntdll                                      0x00007ff84ff00000 + 23128           
+ntdll                                      0x00007ff84ff00000 + 791c0           
+amdvlk64                                   0x00007fffc26f0000 + 2f0915c         
+amdvlk64                                   0x00007fffc26f0000 + 2eea8c6         
+amdvlk64                                   0x00007fffc26f0000 + 5881d9          
+amdvlk64                                   0x00007fffc26f0000 + 99f9b4          
+amdvlk64                                   0x00007fffc26f0000 + 61e07c          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9688</ThreadID>
+<ThreadName>PSOPrecompilePool #8</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 606183          
+amdvlk64                                   0x00007fffc26f0000 + 99434b          
+amdvlk64                                   0x00007fffc26f0000 + 994aa4          
+amdvlk64                                   0x00007fffc26f0000 + 994684          
+amdvlk64                                   0x00007fffc26f0000 + 85b118          
+amdvlk64                                   0x00007fffc26f0000 + 6004a2          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4428</ThreadID>
+<ThreadName>PSOPrecompilePool #9</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 8e1860          
+amdvlk64                                   0x00007fffc26f0000 + 8e1e1b          
+amdvlk64                                   0x00007fffc26f0000 + 8e360b          
+amdvlk64                                   0x00007fffc26f0000 + 8e38f9          
+amdvlk64                                   0x00007fffc26f0000 + 8e3bdb          
+amdvlk64                                   0x00007fffc26f0000 + 6009a5          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11828</ThreadID>
+<ThreadName>PSOPrecompilePool #10</ThreadName>
+</Thread>
+<Thread><CallStack>amdvlk64                                   0x00007fffc26f0000 + 2ecd2d7         
+amdvlk64                                   0x00007fffc26f0000 + 8e385c          
+amdvlk64                                   0x00007fffc26f0000 + 8e38f9          
+amdvlk64                                   0x00007fffc26f0000 + 8e3bdb          
+amdvlk64                                   0x00007fffc26f0000 + 6009a5          
+amdvlk64                                   0x00007fffc26f0000 + 61f2e4          
+amdvlk64                                   0x00007fffc26f0000 + 60876e          
+amdvlk64                                   0x00007fffc26f0000 + 58624e          
+amdvlk64                                   0x00007fffc26f0000 + 598e82          
+amdvlk64                                   0x00007fffc26f0000 + 59d07d          
+amdvlk64                                   0x00007fffc26f0000 + 59c481          
+amdvlk64                                   0x00007fffc26f0000 + 58709c          
+amdvlk64                                   0x00007fffc26f0000 + 2c93d2          
+amdvlk64                                   0x00007fffc26f0000 + 1b960c          
+amdvlk64                                   0x00007fffc26f0000 + 1f2a97          
+amdvlk64                                   0x00007fffc26f0000 + 1f34ea          
+amdvlk64                                   0x00007fffc26f0000 + 20fa87          
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 45502           
+VkLayer_steam_fossilize64                  0x00007fffa2c20000 + 452fc           
+vulkan-1                                   0x00007fffb0020000 + 61ea7           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 7bb07           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 82f4b           
+FactoryGameSteam-VulkanRHI-Win64-Shipping  0x00007fffb4510000 + 8a829           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 4fbb7           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5607d           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 56115           
+FactoryGameSteam-RHI-Win64-Shipping        0x00007ff826170000 + 5609e           
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 153408          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping       0x00007fffbcac0000 + 3939e9          
+KERNEL32                                   0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2220</ThreadID>
+<ThreadName>PSOPrecompilePool #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                                   0x00007ff84ff00000 + 1620e4          
+ntdll                                   0x00007ff84ff00000 + d1014           
+KERNELBASE                              0x00007ff84d020000 + 46f01           
+FactoryGameSteam-Core-Win64-Shipping    0x00007fffbcac0000 + 39025c          
+FactoryGameSteam-Engine-Win64-Shipping  0x00007fffb8bc0000 + 168b5f6         
+FactoryGameSteam-Core-Win64-Shipping    0x00007fffbcac0000 + 393cd4          
+FactoryGameSteam-Core-Win64-Shipping    0x00007fffbcac0000 + 3939e9          
+KERNEL32                                0x00007ff84e0e0000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8680</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformIsRunningWine>false</PlatformIsRunningWine>
+<PlatformSupportsWindows11>true</PlatformSupportsWindows11>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<IsUsingBatterySaver>false</IsUsingBatterySaver>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.RHIName>Vulkan</RHI.RHIName>
+<RHI.AdapterName>AMD Radeon(TM) Graphics</RHI.AdapterName>
+<RHI.UserDriverVersion>AMD Software: Adrenalin Edition 26.5.2</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.21043.10005</RHI.InternalDriverVersion>
+<RHI.DriverDate>5-12-2026</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>AMD</RHI.GPUVendor>
+<RHI.DeviceId>1681</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+<__sentry>{
+	&quot;tags&quot;:
+	{
+		&quot;launcher&quot;: &quot;Steam&quot;,
+		&quot;changelist&quot;: 493833,
+		&quot;release&quot;: &quot;FactoryGame@1.2.3.0+493833&quot;,
+		&quot;configuration&quot;: &quot;Shipping&quot;,
+		&quot;target_type&quot;: &quot;Game&quot;,
+		&quot;engine_mode&quot;: &quot;Game&quot;,
+		&quot;is_sentry_initialized&quot;: &quot;true&quot;,
+		&quot;cpu.name&quot;: &quot;AMD Ryzen 7 7735HS with Radeon Graphics        &quot;,
+		&quot;cpu.cores&quot;: 8,
+		&quot;cpu.threads&quot;: 16,
+		&quot;physical_memory&quot;: 14,
+		&quot;gpu.name&quot;: &quot;AMD Radeon(TM) Graphics&quot;,
+		&quot;gpu.vendor&quot;: &quot;Advanced Micro Devices, Inc.&quot;,
+		&quot;gpu.driver_version&quot;: &quot;AMD Software: Adrenalin Edition 26.5.2&quot;,
+		&quot;is_using_mods&quot;: &quot;true&quot;,
+		&quot;language&quot;: &quot;ru&quot;
+	},
+	&quot;release&quot;: &quot;FactoryGame@1.2.3.0+493833&quot;,
+	&quot;environment&quot;: &quot;Release&quot;,
+	&quot;contexts&quot;:
+	{
+		&quot;Sentry&quot;:
+		{
+			&quot;Plugin version&quot;: &quot;1.1.0&quot;
+		},
+		&quot;gpu&quot;:
+		{
+			&quot;name&quot;: &quot;AMD Radeon(TM) Graphics&quot;,
+			&quot;vendor_name&quot;: &quot;Advanced Micro Devices, Inc.&quot;,
+			&quot;driver_version&quot;: &quot;AMD Software: Adrenalin Edition 26.5.2&quot;
+		},
+		&quot;device&quot;:
+		{
+			&quot;cpu_description&quot;: &quot;AMD Ryzen 7 7735HS with Radeon Graphics        &quot;,
+			&quot;number_of_cores&quot;: &quot;8&quot;,
+			&quot;number_of_cores_including_hyperthreads&quot;: &quot;16&quot;,
+			&quot;physical_memory_size_gb&quot;: &quot;14&quot;
+		}
+	}
+}</__sentry>
+</GameData>
+</FGenericCrashContext>

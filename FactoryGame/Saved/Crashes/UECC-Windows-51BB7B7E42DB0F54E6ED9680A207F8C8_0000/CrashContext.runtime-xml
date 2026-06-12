@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>B37D3D264EDB32C4537FD0A6F6676FC5</ExecutionGuid>
+		<CrashGUID>UECC-Windows-51BB7B7E42DB0F54E6ED9680A207F8C8_0000</CrashGUID>
+		<IsEnsure>false</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>GPUCrash</CrashType>
+		<ErrorMessage>GPU Crash dump Triggered</ErrorMessage>
+		<CrashReporterMessage />
+		<CrashReporterMessage>Attended</CrashReporterMessage>
+		<ProcessId>2708</ProcessId>
+		<SecondsSinceStart>320</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-FactoryGame</GameName>
+		<ExecutableName>FactoryGameSteam-Win64-Shipping</ExecutableName>
+		<BuildConfiguration>Shipping</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformFullName>Win64 [Windows 11 (25H2) [10.0.26200.8117]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.6.1-493833+++FactoryGame+rel-main-1.2.0</EngineVersion>
+		<EngineCompatibleVersion>5.6.1-493833+++FactoryGame+rel-main-1.2.0</EngineCompatibleVersion>
+		<CommandLine>FactoryGame -NO_EOS_OVERLAY</CommandLine>
+		<LanguageLCID>25</LanguageLCID>
+		<AppDefaultLocale>ru-RU</AppDefaultLocale>
+		<BuildVersion>++FactoryGame+rel-main-1.2.0-CL-493833</BuildVersion>
+		<Symbols>**FactoryGame*rel-main-1.2.0-CL-493833-Win64-Shipping</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files (x86)/Steam/steamapps/common/Satisfactory/</RootDir>
+		<MachineId>3291CA854B01B3D45F838CBC4BD7329D</MachineId>
+		<LoginId>3291ca854b01b3d45f838cbc4bd7329d</LoginId>
+		<EpicAccountId />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName>BP_GameState_C</GameStateName>
+		<Misc.NumberOfCores>8</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD Ryzen 7 7735HS with Radeon Graphics</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>AMD Radeon(TM) Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 11 (25H2) [10.0.26200.8117]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<Misc.AnticheatProvider />
+		<MemoryStats.TotalPhysical>14701584384</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>27049615360</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>14</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>2421223424</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>10494627840</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>3707555840</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>3780915200</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>4950171648</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>4997464064</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+		<CallStack>FactoryGameSteam_D3D12RHI_Win64_Shipping!FD3D12DynamicRHI::TerminateOnGPUCrash() [D:\HordeAgent\Sandbox\Rel\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Util.cpp:1002]
+FactoryGameSteam_D3D12RHI_Win64_Shipping!`FD3D12DynamicRHI::ProcessInterruptQueue&apos;::`2&apos;::&lt;lambda_2&gt;::operator()() [D:\HordeAgent\Sandbox\Rel\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Submission.cpp:1147]
+FactoryGameSteam_D3D12RHI_Win64_Shipping!FD3D12DynamicRHI::ForEachQueue() [D:\HordeAgent\Sandbox\Rel\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12RHI.cpp:289]
+FactoryGameSteam_D3D12RHI_Win64_Shipping!FD3D12DynamicRHI::ProcessInterruptQueue() [D:\HordeAgent\Sandbox\Rel\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Submission.cpp:1309]
+FactoryGameSteam_D3D12RHI_Win64_Shipping!FD3D12Thread::Run() [D:\HordeAgent\Sandbox\Rel\Sync\Engine\Source\Runtime\D3D12RHI\Private\D3D12Submission.cpp:127]
+FactoryGameSteam_Core_Win64_Shipping!FRunnableThreadWin::Run() [D:\HordeAgent\Sandbox\Rel\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsRunnableThread.cpp:159]</CallStack>
+		<PCallStack>
+
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + bf0a9 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 5ea9a 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 74729 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 7a1b9 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 852af 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</PCallStack>
+		<PCallStackHash>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + e3972 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + cb76a 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + 106ee1 
+FactoryGameSteam-Win64-Shipping 0x00007ff76b840000 + 3c94 
+FactoryGameSteam-Win64-Shipping 0x00007ff76b840000 + ef2c 
+FactoryGameSteam-Win64-Shipping 0x00007ff76b840000 + efaa 
+FactoryGameSteam-Win64-Shipping 0x00007ff76b840000 + 10104 
+FactoryGameSteam-Win64-Shipping 0x00007ff76b840000 + 19e24 
+FactoryGameSteam-Win64-Shipping 0x00007ff76b840000 + 1a672 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2376</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>5780</ThreadID>
+				<ThreadName>BackgroundThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10796</ThreadID>
+				<ThreadName>BackgroundThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + c869b8 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + cc5eda 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + cc696e 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + c9f659 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 122ff7 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + d3fdf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6ca4e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 80626 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12208</ThreadID>
+				<ThreadName>Foreground Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12836</ThreadID>
+				<ThreadName>Background Worker #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161e24 
+KERNELBASE 0x00007ff84d020000 + bb2ea 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 373dc2 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + dd354 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 108c57 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 109c37 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 13aace 
+FactoryGameSteam-Engine-Win64-Shipping 0x00007fffa5a90000 + b99555 
+FactoryGameSteam-Engine-Win64-Shipping 0x00007fffa5a90000 + 84d322 
+FactoryGameSteam-Engine-Win64-Shipping 0x00007fffa5a90000 + b935bb 
+FactoryGameSteam-Engine-Win64-Shipping 0x00007fffa5a90000 + b99383 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 92aaf5 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 953ad5 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 122ff7 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + d3fdf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6ca4e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 80626 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>8336</ThreadID>
+				<ThreadName>Foreground Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16344</ThreadID>
+				<ThreadName>Background Worker #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1656b4 
+ntdll 0x00007ff84ff00000 + 9c083 
+KERNELBASE 0x00007ff84d020000 + e4148 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 237612 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7faa9 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7f50b 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 370441 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3707f6 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 8a890 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 8a940 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 4a771 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9f5828 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9d365e 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9ceeee 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9ce860 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 122ff7 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + d3fdf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6ca4e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 80626 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14208</ThreadID>
+				<ThreadName>Background Worker #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14820</ThreadID>
+				<ThreadName>Background Worker #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6996</ThreadID>
+				<ThreadName>Background Worker #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67ada 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7affb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3060</ThreadID>
+				<ThreadName>Foreground Worker (Standby #0)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14416</ThreadID>
+				<ThreadName>Background Worker #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 2ec0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 421f65 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3fdb73 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3c12cb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 409fd2 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3fdb1b 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3c12cb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3bea9f 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3bdd45 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3ade05 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3aeec5 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + af7b4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 9d07b 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 236765 
+FactoryGameSteam-PakFile-Win64-Shipping 0x00007fffbe880000 + 5ce0e 
+FactoryGameSteam-PakFile-Win64-Shipping 0x00007fffbe880000 + 1b05f 
+FactoryGameSteam-PakFile-Win64-Shipping 0x00007fffbe880000 + 64567 
+FactoryGameSteam-PakFile-Win64-Shipping 0x00007fffbe880000 + 2212f 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6ca4e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 8060a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14388</ThreadID>
+				<ThreadName>Background Worker #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6508</ThreadID>
+				<ThreadName>Background Worker #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3292</ThreadID>
+				<ThreadName>Background Worker #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 74254 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13716</ThreadID>
+				<ThreadName>Background Worker #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15404</ThreadID>
+				<ThreadName>Background Worker #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 742b0 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67cb7 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 807cc 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 6238a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>1280</ThreadID>
+				<ThreadName>Background Worker #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1620e4 
+ntdll 0x00007ff84ff00000 + d1014 
+KERNELBASE 0x00007ff84d020000 + 46f01 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 153635 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3352</ThreadID>
+				<ThreadName>FHeartBeatThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1620e4 
+ntdll 0x00007ff84ff00000 + d1014 
+KERNELBASE 0x00007ff84d020000 + 46f01 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 2bf54d 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12476</ThreadID>
+				<ThreadName>FAsyncWriter_FactoryGame</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Media-Win64-Shipping 0x00007ff835940000 + 4401 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>12080</ThreadID>
+				<ThreadName>FMediaTicker</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1625b4 
+KERNELBASE 0x00007ff84d020000 + 41a93 
+FactoryGameSteam-HTTP-Win64-Shipping 0x00007ff825440000 + 1d97f4 
+FactoryGameSteam-HTTP-Win64-Shipping 0x00007ff825440000 + 1d785d 
+FactoryGameSteam-HTTP-Win64-Shipping 0x00007ff825440000 + 9fe10 
+FactoryGameSteam-HTTP-Win64-Shipping 0x00007ff825440000 + 9f5ab 
+FactoryGameSteam-HTTP-Win64-Shipping 0x00007ff825440000 + 9f646 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16148</ThreadID>
+				<ThreadName>HttpManagerThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-OnlineSubsystem-Win64-Shipping 0x00007fff96cd0000 + 3ea56 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13292</ThreadID>
+				<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1656b4 
+ntdll 0x00007ff84ff00000 + 9c083 
+KERNELBASE 0x00007ff84d020000 + e4148 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 23751c 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7faa9 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7f4ac 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 2c5696 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14884</ThreadID>
+				<ThreadName>OutputDeviceRedirector</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11876</ThreadID>
+				<ThreadName>IOThreadPool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9056</ThreadID>
+				<ThreadName>IOThreadPool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13032</ThreadID>
+				<ThreadName>IOThreadPool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13088</ThreadID>
+				<ThreadName>IOThreadPool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-PakFile-Win64-Shipping 0x00007fffbe880000 + 5c401 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16312</ThreadID>
+				<ThreadName>IoService</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 207f43 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15088</ThreadID>
+				<ThreadName>IoDispatcher</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 38bcbd 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 5834be 
+VCRUNTIME140 0x00007ff83b380000 + f55d 
+ntdll 0x00007ff84ff00000 + 16619f 
+ntdll 0x00007ff84ff00000 + 12397 
+ntdll 0x00007ff84ff00000 + a951 
+KERNELBASE 0x00007ff84d020000 + c79da 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 38d473 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + bf0a9 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 5ea9a 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 74729 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 7a1b9 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 852af 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>14788</ThreadID>
+				<ThreadName>RHIInterruptThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-D3D12RHI-Win64-Shipping 0x00007fffbac40000 + 852c5 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14836</ThreadID>
+				<ThreadName>RHISubmissionThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67ada 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7affb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>9724</ThreadID>
+				<ThreadName>Foreground Worker (Standby #1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67ada 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7affb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16284</ThreadID>
+				<ThreadName>Background Worker (Standby #0)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 68eb2 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7af8e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2260</ThreadID>
+				<ThreadName>Background Worker (Standby #1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 68eb2 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7af8e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15180</ThreadID>
+				<ThreadName>Background Worker (Standby #2)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 67ada 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7affb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>15224</ThreadID>
+				<ThreadName>Background Worker (Standby #3)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 68eb2 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7af8e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 62383 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1536d3 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13464</ThreadID>
+				<ThreadName>Background Worker (Standby #4)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 75acb 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + f73a1 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7196</ThreadID>
+				<ThreadName>RHIThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 75acb 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7f82e 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7fda8 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9be34e 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9ecbe3 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9d44dc 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 16efd6 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 9891e7 
+FactoryGameSteam-Renderer-Win64-Shipping 0x00007fffa2d50000 + 997ff0 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + cdf37 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + dfd85 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 7df01 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 75ade 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + f6e86 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + f740a 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16084</ThreadID>
+				<ThreadName>RenderThread 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1620e4 
+ntdll 0x00007ff84ff00000 + d1014 
+KERNELBASE 0x00007ff84d020000 + 46f01 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 39025c 
+FactoryGameSteam-RenderCore-Win64-Shipping 0x00007ff82e6c0000 + f7538 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7012</ThreadID>
+				<ThreadName>RTHeartBeat 0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1620e4 
+ntdll 0x00007ff84ff00000 + d1014 
+KERNELBASE 0x00007ff84d020000 + 46f01 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 39025c 
+FactoryGameSteam-FactoryGame-Win64-Shipping 0x00007fffb0e40000 + 654a95 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7560</ThreadID>
+				<ThreadName>FactoryGameBackgroundTasks</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-CoreUObject-Win64-Shipping 0x00007fffbce50000 + 136ad4 
+FactoryGameSteam-CoreUObject-Win64-Shipping 0x00007fffbce50000 + 136aa4 
+FactoryGameSteam-CoreUObject-Win64-Shipping 0x00007fffbce50000 + 3db6ab 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>16212</ThreadID>
+				<ThreadName>FAsyncLoadingThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11544</ThreadID>
+				<ThreadName>PSOPrecompilePool #0</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11236</ThreadID>
+				<ThreadName>PSOPrecompilePool #1</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4816</ThreadID>
+				<ThreadName>PSOPrecompilePool #2</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11192</ThreadID>
+				<ThreadName>PSOPrecompilePool #3</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6184</ThreadID>
+				<ThreadName>PSOPrecompilePool #4</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>6820</ThreadID>
+				<ThreadName>PSOPrecompilePool #5</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13928</ThreadID>
+				<ThreadName>PSOPrecompilePool #6</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>11828</ThreadID>
+				<ThreadName>PSOPrecompilePool #7</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4428</ThreadID>
+				<ThreadName>PSOPrecompilePool #8</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>10692</ThreadID>
+				<ThreadName>PSOPrecompilePool #9</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>7544</ThreadID>
+				<ThreadName>PSOPrecompilePool #10</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 1533be 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14832</ThreadID>
+				<ThreadName>PSOPrecompilePool #11</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 1620e4 
+ntdll 0x00007ff84ff00000 + d1014 
+KERNELBASE 0x00007ff84d020000 + 46f01 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 39025c 
+FactoryGameSteam-Engine-Win64-Shipping 0x00007fffa5a90000 + 168b5f6 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>14292</ThreadID>
+				<ThreadName>ScreenSaverInhibitor</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-AudioMixerCore-Win64-Shipping 0x00007ff8260f0000 + 5c9b 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>2536</ThreadID>
+				<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+KERNELBASE 0x00007ff84d020000 + 3b1bf 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 392824 
+FactoryGameSteam-AudioMixerCore-Win64-Shipping 0x00007ff8260f0000 + 6002 
+FactoryGameSteam-AudioMixerCore-Win64-Shipping 0x00007ff8260f0000 + 5eef 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>13084</ThreadID>
+				<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+mswsock 0x00007ff84bad0000 + 951a 
+mswsock 0x00007ff84bad0000 + 91f2 
+WS2_32 0x00007ff84e290000 + 119c1 
+FactoryGameSteam-Sockets-Win64-Shipping 0x00007ff82e680000 + cb8f 
+FactoryGameSteam-Sockets-Win64-Shipping 0x00007ff82e680000 + 128ba 
+FactoryGameSteam-FactoryDedicatedClient-Win64-Shipping 0x00007fffa97a0000 + ab8da 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>4732</ThreadID>
+				<ThreadName>FGClientQuerySocketThread</ThreadName>
+			</Thread>
+			<Thread>
+				<CallStack>ntdll 0x00007ff84ff00000 + 161ae4 
+mswsock 0x00007ff84bad0000 + 951a 
+mswsock 0x00007ff84bad0000 + 91f2 
+WS2_32 0x00007ff84e290000 + 119c1 
+FactoryGameSteam-Sockets-Win64-Shipping 0x00007ff82e680000 + cb8f 
+FactoryGameSteam-Sockets-Win64-Shipping 0x00007ff82e680000 + 128ba 
+FactoryGameSteam-FactoryDedicatedClient-Win64-Shipping 0x00007fffa97a0000 + ab8da 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 393cd4 
+FactoryGameSteam-Core-Win64-Shipping 0x00007fffa81e0000 + 3939e9 
+KERNEL32 0x00007ff84e0e0000 + 2e8d7 
+</CallStack>
+				<IsCrashed>false</IsCrashed>
+				<Registers />
+				<ThreadID>3452</ThreadID>
+				<ThreadName>FGClientQuerySocketThread</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>639168654414890000</TimeOfCrash>
+		<bAllowToBeContacted>0</bAllowToBeContacted>
+		<CPUBrand>AMD Ryzen 7 7735HS with Radeon Graphics</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\sl.interposer.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Win64-Shipping.exe
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-RSA-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-PropertyPath-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ClothingSystemRuntimeInterface-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioExtensions-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioMixer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-NNE-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-TelemetryUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-CookOnTheFly-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-DLSSUtility-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64\FactoryGameSteam-OnlineSubsystemNull-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-StateStream-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-PacketHandler-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-GameplayTags-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ReliabilityHandlerComponent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-DeveloperSettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioLinkCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-NetCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-NetworkReplayStreaming-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-HTTP-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioPlatformConfiguration-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-EngineMessages-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-EngineSettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-JsonUtilities-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\WindowsDeviceProfileSelector\Binaries\Win64\FactoryGameSteam-WindowsDeviceProfileSelector-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Portal\LauncherChunkInstaller\Binaries\Win64\FactoryGameSteam-LauncherChunkInstaller-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-VectorVM-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ChunkDownloader\Binaries\Win64\FactoryGameSteam-ChunkDownloader-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AnalyticsET-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-FieldNotification-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-UniversalObjectLocator-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Icmp-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-TypedElementFramework-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ImageCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioMixerCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SignalProcessing-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-XmlParser-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Json-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-CoreOnline-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MediaUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-TypedElementRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Sockets-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-RenderCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ApplicationCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ImageWriteQueue-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-InstallBundleManager-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Projects-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-IoStoreOnDemandCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-InputCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Nanosvg-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MaterialShaderQualitySettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Media-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Cbor-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64\FactoryGameSteam-ExampleDeviceProfileSelector-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-BuildSettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-PreLoadScreen-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-CorePreciseFP-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MoviePlayer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\ThirdParty\Steamworks\Steamv157\Win64\steam_api64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MoviePlayerProxy-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\ThirdParty\Win64\libxess_fg.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServicesOSSAdapter\Binaries\Win64\FactoryGameSteam-OnlineServicesOSSAdapter-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServicesNull\Binaries\Win64\FactoryGameSteam-OnlineServicesNull-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServicesEOS\Binaries\Win64\FactoryGameSteam-OnlineServicesEOS-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServicesEOSGS\Binaries\Win64\FactoryGameSteam-OnlineServicesEOSGS-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServices\Binaries\Win64\FactoryGameSteam-OnlineServicesCommonEngineUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\SocketSubsystemEOS\Binaries\Win64\FactoryGameSteam-SocketSubsystemEOS-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\FactoryGameSteam-OnlineSubsystemUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64\FactoryGameSteam-OnlineSubsystem-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Voice-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServicesEpicCommon\Binaries\Win64\FactoryGameSteam-OnlineServicesEpicCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServices\Binaries\Win64\FactoryGameSteam-OnlineServicesCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineServices\Binaries\Win64\FactoryGameSteam-OnlineServicesInterface-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineBase\Binaries\Win64\FactoryGameSteam-OnlineBase-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\EOSSDK-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\EOSShared\Binaries\Win64\FactoryGameSteam-EOSShared-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\WmfMedia\Binaries\Win64\FactoryGameSteam-WmfMedia-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\WmfMedia\Binaries\Win64\FactoryGameSteam-WmfMediaFactory-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\ImgMedia\Binaries\Win64\FactoryGameSteam-ExrReaderGpu-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Assets\Binaries\Win64\FactoryGameSteam-InterchangeAssets-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\FX\Niagara\Binaries\Win64\FactoryGameSteam-NiagaraVertexFactories-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\FX\Niagara\Binaries\Win64\FactoryGameSteam-NiagaraShader-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\FX\Niagara\Binaries\Win64\FactoryGameSteam-NiagaraCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-StudioTelemetry-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\NFORDenoise\Binaries\Win64\FactoryGameSteam-NFORDenoise-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Compositing\CompositeCore\Binaries\Win64\FactoryGameSteam-CompositeCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Enterprise\GLTFExporter\Binaries\Win64\FactoryGameSteam-GLTFExporter-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64\FactoryGameSteam-VariantManagerContent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64\FactoryGameSteam-DatasmithContent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-CinematicCamera-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Compositing\OpenColorIO\Binaries\Win64\FactoryGameSteam-OpenColorIO-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-OpenColorIOWrapper-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Compositing\LensDistortion\Binaries\Win64\FactoryGameSteam-LensDistortion-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\ChaosCloth\Binaries\Win64\FactoryGameSteam-ChaosCloth-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\ChaosCaching\Binaries\Win64\FactoryGameSteam-ChaosCaching-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-LevelSequence-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MediaAssets-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ClothingSystemRuntimeCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ComputeFramework\Binaries\Win64\FactoryGameSteam-ComputeFramework-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\RuntimeTelemetry\Binaries\Win64\FactoryGameSteam-RuntimeTelemetry-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\DeformerGraph\Binaries\Win64\FactoryGameSteam-OptimusSettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\ACLPlugin\Binaries\Win64\FactoryGameSteam-ACLPlugin-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AIModule-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-NavigationSystem-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-GeometryCollectionEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ISMPool-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-FieldSystemEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ChaosSolverEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-DataflowEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-DataflowCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Navmesh-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-VulkanRHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\FactoryGameSteam-PlatformCryptoContext-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\AI\AISupport\Binaries\Win64\FactoryGameSteam-AISupportModule-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-DataflowSimulation-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-GameplayTasks-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSUnreal-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-RHICore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSSDK-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Constraints-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AnimGraphRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-GeometryCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-UELibSampleRate-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MovieSceneTracks-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MovieScene-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SlateRHIRenderer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Renderer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-IrisCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Chaos-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-PhysicsCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-UMG-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SSL-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Engine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SlateCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Core-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SynthBenchmark-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\AppleProResMedia\Binaries\ThirdParty\Win64\ProResToolbox.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SessionServices-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SessionMessages-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-StreamingPauseRendering-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\ThirdParty\Windows\XAudio2_9\x64\xaudio2_9redist.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioMixerXAudio2-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-WindowsMMDeviceEnumeration-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioCaptureWasapi-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioPlatformSupportWasapi-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Binaries\Win64\FactoryGameSteam-FactoryMessagingTypes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Binaries\Win64\FactoryGameSteam-FactoryDedicatedClient-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ClothingSystemRuntimeNv-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Overlay-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MRMesh-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-HeadMountedDisplay-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\ThirdParty\Win64\libxess.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\sl.reflex.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\sl.pcl.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\ThirdParty\Win64\libxell.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\ThirdParty\Win64\sl.common.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\amd_fidelityfx_dx12.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-WindowsPlatformFeatures-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-GameplayMediaEncoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AVEncoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\GameFeatures\InfiniteZoop\Binaries\Win64\FactoryGameSteam-InfiniteZoop-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\GameFeatures\InfiniteNudge\Binaries\Win64\FactoryGameSteam-InfiniteNudge-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\GameFeatures\FlashlightSettings\Binaries\Win64\FactoryGameSteam-FlashlightSettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\GameFeatures\CrashSiteBeacons\Binaries\Win64\FactoryGameSteam-CrashSiteBeacons-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\moidu21_lib\Binaries\Win64\FactoryGameSteam-moidu21_lib-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\MAMTips\Binaries\Win64\FactoryGameSteam-MAMTips-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\FasterManualCraftingRedux\Binaries\Win64\FactoryGameSteam-FasterManualCraftingRedux-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Mods\SML\Binaries\Win64\FactoryGameSteam-SML-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Binaries\Win64\FactoryGameSteam-FactoryGame-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Binaries\Win64\FactoryGameSteam-FactoryPreEarlyLoadingScreen-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSVulkanRHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSD3D12RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSD3D11RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineReflex\Binaries\Win64\FactoryGameSteam-StreamlineReflexBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineDeepDVC\Binaries\Win64\FactoryGameSteam-StreamlineDeepDVCBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineDLSSG\Binaries\Win64\FactoryGameSteam-StreamlineDLSSGBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\Win64\FactoryGameSteam-StreamlineD3D12RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\Win64\FactoryGameSteam-StreamlineD3D11RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\Win64\FactoryGameSteam-StreamlineBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\Win64\FactoryGameSteam-StreamlineCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\Win64\FactoryGameSteam-StreamlineRHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\SignificanceISPC\Binaries\Win64\FactoryGameSteam-SignificanceISPC-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Sentry\Binaries\Win64\FactoryGameSteam-Sentry-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\ReliableMessaging\Binaries\Win64\FactoryGameSteam-ReliableMessagingTCP-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\ReliableMessaging\Binaries\Win64\FactoryGameSteam-ReliableMessagingSteamP2P-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\ReliableMessaging\Binaries\Win64\FactoryGameSteam-ReliableMessagingEOSP2P-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\ReliableMessaging\Binaries\Win64\FactoryGameSteam-ReliableMessaging-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Online\OnlineIntegration\Binaries\Win64\FactoryGameSteam-OnlineIntegrationPostSplashScreen-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Online\OnlineIntegration\Binaries\Win64\FactoryGameSteam-OnlineIntegrationEOSExtensions-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXD3D12Backend-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-NGXVulkanRHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-NGXD3D12RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-NGXD3D11RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\AbstractInstance\Binaries\Win64\FactoryGameSteam-AbstractInstance-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseSimpleExternalSource-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-AkAudioMixer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-Wwise-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\WwiseNiagara\Binaries\Win64\FactoryGameSteam-WwiseNiagara-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-AkAudio-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseObstructionOcclusion-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseEngineUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseResourceLoader-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseFileHandler-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseObjectUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseProcessing-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseConcurrency-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Wwise\Binaries\Win64\FactoryGameSteam-WwiseSoundEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\WorldMetrics\Binaries\Win64\FactoryGameSteam-CsvMetrics-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\WorldMetrics\Binaries\Win64\FactoryGameSteam-WorldMetricsCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\VirtualProduction\Takes\Binaries\Win64\FactoryGameSteam-TakeMovieScene-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\TraceUtilities\Binaries\Win64\FactoryGameSteam-TraceUtilities-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Tests\RuntimeTests\Binaries\Win64\FactoryGameSteam-RuntimeTests-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MassEntity-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Windows\XInputDevice\Binaries\Win64\FactoryGameSteam-XInputDevice-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Windows\WinDualShock\Binaries\Win64\FactoryGameSteam-WinDualShock-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64\FactoryGameSteam-WindowsMoviePlayer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\WebMMoviePlayer\Binaries\Win64\FactoryGameSteam-WebMMoviePlayer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Synthesis\Binaries\Win64\FactoryGameSteam-Synthesis-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Steam\SteamSockets\Binaries\Win64\FactoryGameSteam-SteamSockets-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Steam\SteamController\Binaries\Win64\FactoryGameSteam-SteamController-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\SoundFields\Binaries\Win64\FactoryGameSteam-SoundFields-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ScriptableToolsFramework\Binaries\Win64\FactoryGameSteam-ScriptableToolsFramework-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ResonanceAudio\Binaries\Win64\FactoryGameSteam-ResonanceAudio-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ReplicationGraph\Binaries\Win64\FactoryGameSteam-ReplicationGraph-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\PacketHandlers\DTLSHandlerComponent\Binaries\Win64\FactoryGameSteam-DTLSHandlerComponent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\MsQuic\Binaries\Win64\FactoryGameSteam-MsQuicRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Metasound\Binaries\Win64\FactoryGameSteam-MetasoundEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\WaveTable\Binaries\Win64\FactoryGameSteam-WaveTable-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Metasound\Binaries\Win64\FactoryGameSteam-MetasoundStandardNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Metasound\Binaries\Win64\FactoryGameSteam-MetasoundGenerator-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Metasound\Binaries\Win64\FactoryGameSteam-MetasoundFrontend-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Metasound\Binaries\Win64\FactoryGameSteam-MetasoundGraphCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MathCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\FactoryGameSteam-HairStrandsRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\FactoryGameSteam-HairStrandsDeformer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\FactoryGameSteam-HairStrandsSolver-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GooglePAD\Binaries\Win64\FactoryGameSteam-GooglePAD-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GeometryScripting\Binaries\Win64\FactoryGameSteam-GeometryScriptingCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GeometryCache\Binaries\Win64\FactoryGameSteam-GeometryCacheTracks-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GameFeatures\Binaries\Win64\FactoryGameSteam-GameFeatures-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ModularGameplay\Binaries\Win64\FactoryGameSteam-ModularGameplay-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Database\SQLiteCore\Binaries\Win64\FactoryGameSteam-SQLiteCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\DataRegistry\Binaries\Win64\FactoryGameSteam-DataRegistry-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\CustomMeshComponent\Binaries\Win64\FactoryGameSteam-CustomMeshComponent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\CableComponent\Binaries\Win64\FactoryGameSteam-CableComponent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AudioWidgets\Binaries\Win64\FactoryGameSteam-AudioWidgets-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AdvancedWidgets-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\FactoryGameSteam-AudioSynesthesia-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioAnalyzer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AudioSynesthesia\Binaries\Win64\FactoryGameSteam-AudioSynesthesiaCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AudioCapture\Binaries\Win64\FactoryGameSteam-AudioCapture-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioCaptureCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AssetTags\Binaries\Win64\FactoryGameSteam-AssetTags-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AppleImageUtils\Binaries\Win64\FactoryGameSteam-AppleImageUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ApexDestruction\Binaries\Win64\FactoryGameSteam-ApexDestruction-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\AndroidFileServer\Binaries\Win64\FactoryGameSteam-AndroidFileServer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Online\OnlineSubsystemSteam\Binaries\Win64\FactoryGameSteam-OnlineSubsystemSteam-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\SequencerScripting\Binaries\Win64\FactoryGameSteam-SequencerScripting-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\MovieRenderPipeline\Binaries\Win64\FactoryGameSteam-UEOpenExrRTTI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\MovieRenderPipeline\Binaries\Win64\FactoryGameSteam-MovieRenderPipelineMP4Encoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\MovieRenderPipeline\Binaries\Win64\FactoryGameSteam-MovieRenderPipelineRenderPasses-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ActorLayerUtilities\Binaries\Win64\FactoryGameSteam-ActorLayerUtilities-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\MovieRenderPipeline\Binaries\Win64\FactoryGameSteam-MovieRenderPipelineSettings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\ActorSequence\Binaries\Win64\FactoryGameSteam-ActorSequence-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Messaging\UdpMessaging\Binaries\Win64\FactoryGameSteam-UdpMessaging-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Messaging-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Messaging\TcpMessaging\Binaries\Win64\FactoryGameSteam-TcpMessaging-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Serialization-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\WebMMedia\Binaries\Win64\FactoryGameSteam-WebMMediaFactory-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\WebMMedia\Binaries\Win64\FactoryGameSteam-WebMMedia-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\MfMedia\Binaries\Win64\FactoryGameSteam-MfMediaFactory-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\MediaPlate\Binaries\Win64\FactoryGameSteam-MediaPlate-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\MediaCompositing\Binaries\Win64\FactoryGameSteam-MediaCompositing-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\ImgMedia\Binaries\Win64\FactoryGameSteam-ImgMediaEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\ImgMedia\Binaries\Win64\FactoryGameSteam-ImgMedia-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\ImgMedia\Binaries\Win64\FactoryGameSteam-OpenExrWrapper-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\ImgMedia\Binaries\Win64\FactoryGameSteam-ImgMediaFactory-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Media\AppleProResMedia\Binaries\Win64\FactoryGameSteam-AppleProResMedia-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\MovieRenderPipeline\Binaries\Win64\FactoryGameSteam-MovieRenderPipelineCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-NonRealtimeAudioRenderer-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MovieSceneCapture-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AVIWriter-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangePipelines-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeExport-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeMessages-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeImport-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeDispatcher-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeCommonParser-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ImageWrapper-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-IESFile-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeFactoryNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-InterchangeEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-InterchangeNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Interchange\Runtime\Binaries\Win64\FactoryGameSteam-GLTFCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-InterchangeCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\FX\Niagara\Binaries\Win64\FactoryGameSteam-NiagaraAnimNotifies-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\FX\NiagaraSimCaching\Binaries\Win64\FactoryGameSteam-NiagaraSimCaching-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\SlateIM\Binaries\Win64\FactoryGameSteam-SlateIM-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\MeshModelingToolsetExp\Binaries\Win64\FactoryGameSteam-ModelingUI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\MeshModelingToolsetExp\Binaries\Win64\FactoryGameSteam-MeshModelingToolsExp-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\FactoryGameSteam-MeshModelingTools-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\FactoryGameSteam-ModelingOperators-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-TextureUtilitiesCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\MeshModelingToolset\Binaries\Win64\FactoryGameSteam-ModelingComponents-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\LocalizableMessage\Binaries\Win64\FactoryGameSteam-LocalizableMessageBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\LocalizableMessage\Binaries\Win64\FactoryGameSteam-LocalizableMessage-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Landmass\Binaries\Win64\FactoryGameSteam-Landmass-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\GeometryDataflow\Binaries\Win64\FactoryGameSteam-GeometryDataflowNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\GeometryCollectionPlugin\Binaries\Win64\FactoryGameSteam-GeometryCollectionDepNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\GeometryCollectionPlugin\Binaries\Win64\FactoryGameSteam-GeometryCollectionNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MeshConversionEngineTypes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\GeometryCollectionPlugin\Binaries\Win64\FactoryGameSteam-GeometryCollectionTracks-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Gauntlet\Binaries\Win64\FactoryGameSteam-Gauntlet-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\FullBodyIK\Binaries\Win64\FactoryGameSteam-FullBodyIK-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Fracture\Binaries\Win64\FactoryGameSteam-FractureEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\PlanarCutPlugin\Binaries\Win64\FactoryGameSteam-PlanarCut-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GeometryProcessing\Binaries\Win64\FactoryGameSteam-DynamicMesh-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GeometryProcessing\Binaries\Win64\FactoryGameSteam-GeometryAlgorithms-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MeshConversion-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SkeletalMeshDescription-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\FactoryGameSteam-DataflowNodes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\FactoryGameSteam-DataflowEnginePlugin-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-GeometryFramework-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-InteractiveToolsFramework-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\Dataflow\Binaries\Win64\FactoryGameSteam-DataflowAssetTools-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\CharacterAI\Binaries\Win64\FactoryGameSteam-CharacterAI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\ChaosVehiclesPlugin\Binaries\Win64\FactoryGameSteam-ChaosVehicles-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ChaosVehiclesCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\ChaosUserDataPT\Binaries\Win64\FactoryGameSteam-ChaosUserDataPT-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\ChaosNiagara\Binaries\Win64\FactoryGameSteam-ChaosNiagara-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\BackChannel\Binaries\Win64\FactoryGameSteam-BackChannel-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\AutomationUtils\Binaries\Win64\FactoryGameSteam-AutomationUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\AsyncMessageSystem\Binaries\Win64\FactoryGameSteam-AsyncMessageSystem-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Editor\FacialAnimation\Binaries\Win64\FactoryGameSteam-FacialAnimation-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Editor\ConsoleVariablesEditor\Binaries\Win64\FactoryGameSteam-ConsoleVariablesEditorRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Developer\UObjectPlugin\Binaries\Win64\FactoryGameSteam-UObjectPlugin-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Developer\NamingTokens\Binaries\Win64\FactoryGameSteam-NamingTokens-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Developer\AnimationSharing\Binaries\Win64\FactoryGameSteam-AnimationSharing-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\SignificanceManager\Binaries\Win64\FactoryGameSteam-SignificanceManager-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Compression\OodleNetwork\Binaries\Win64\FactoryGameSteam-OodleNetworkHandlerComponent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\ChaosVD\Binaries\Win64\FactoryGameSteam-ChaosVDBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\ChaosClothAsset\Binaries\Win64\FactoryGameSteam-ChaosClothAssetEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\ChaosClothAsset\Binaries\Win64\FactoryGameSteam-ChaosClothAsset-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Cameras\GameplayCameras\Binaries\Win64\FactoryGameSteam-GameplayCameras-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\StateTree\Binaries\Win64\FactoryGameSteam-StateTreeModule-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\PropertyBindingUtils\Binaries\Win64\FactoryGameSteam-PropertyBindingUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\EnhancedInput\Binaries\Win64\FactoryGameSteam-EnhancedInput-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Cameras\EngineCameras\Binaries\Win64\FactoryGameSteam-EngineCameras-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\MovieScene\TemplateSequence\Binaries\Win64\FactoryGameSteam-TemplateSequence-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\CSLoc\Binaries\Win64\FactoryGameSteam-CSLocTools-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\TweeningUtils\Binaries\Win64\FactoryGameSteam-TweeningUtils-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\IKRig\Binaries\Win64\FactoryGameSteam-IKRig-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\FullBodyIK\Binaries\Win64\FactoryGameSteam-PBIK-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\DeformerGraph\Binaries\Win64\FactoryGameSteam-OptimusCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\ControlRigSpline\Binaries\Win64\FactoryGameSteam-ControlRigSpline-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\ControlRig\Binaries\Win64\FactoryGameSteam-ControlRig-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\RigVM\Binaries\Win64\FactoryGameSteam-RigVM-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\AnimationWarping\Binaries\Win64\FactoryGameSteam-AnimationWarpingRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Animation\AnimationLocomotionLibrary\Binaries\Win64\FactoryGameSteam-AnimationLocomotionLibraryRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\2D\Paper2D\Binaries\Win64\FactoryGameSteam-Paper2D-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeFGBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeFGCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeFGRHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeLLBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeLLCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSVulkanRHISetup-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSPrePass-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\StreamlineCore\Binaries\Win64\FactoryGameSteam-StreamlineShaders-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\RainRendering\Binaries\Win64\FactoryGameSteam-RainRendering-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Online\OnlineServicesSteamLimited\Binaries\Win64\FactoryGameSteam-OnlineServicesSteamLimited-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\Online\OnlineIntegration\Binaries\Win64\FactoryGameSteam-OnlineIntegration-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\GameplayEvents\Binaries\Win64\FactoryGameSteam-GameplayEvents-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ModelViewViewModel\Binaries\Win64\FactoryGameSteam-ModelViewViewModel-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\ControlFlows\Binaries\Win64\FactoryGameSteam-ControlFlows-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXFrameInterpolation-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXFSR3TemporalUpscaling-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-D3D12RHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\FX\Niagara\Binaries\Win64\FactoryGameSteam-Niagara-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\XeSS\Binaries\Win64\FactoryGameSteam-XeSSCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\SteamDeckConfig\Binaries\Win64\FactoryGameSteam-SteamDeckConfig-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXFSR3Settings-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\FactoryGameSteam-PythonScriptPluginPreload-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\FactoryGameSteam-PlatformCryptoTypes-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Slate-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-CoreUObject-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\FactoryGameSteam-PlatformCrypto-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-PakFile-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MeshDescription-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-RadAudioDecoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Foliage-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-BinkAudioDecoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\Steam\SteamShared\Binaries\Win64\FactoryGameSteam-SteamShared-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXD3D12-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXRHIBackend-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXFrameInterpolationApi-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXOpticalFlowApi-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\HairStrands\Binaries\Win64\FactoryGameSteam-HairStrandsCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-OpusAudioDecoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AdpcmAudioDecoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AnimationCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ChaosVDRuntime-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AssetRegistry-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SandboxFile-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-VorbisAudioDecoder-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Voronoi-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Networking-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-ChaosCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-StaticMeshDescription-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXFSR3Api-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\FSR3\Binaries\Win64\FactoryGameSteam-FFXShared-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-NGXVulkanRHIPreInit-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-DLSSBlueprint-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-MeshUtilitiesCommon-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Analytics-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-AudioLinkEngine-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-Landscape-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-DLSS-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\FactoryGame\Plugins\DLSS\Binaries\Win64\FactoryGameSteam-NGXRHI-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\VirtualProduction\CameraCalibrationCore\Binaries\Win64\FactoryGameSteam-CameraCalibrationCore-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-RawMesh-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\ProceduralMeshComponent\Binaries\Win64\FactoryGameSteam-ProceduralMeshComponent-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Plugins\Runtime\GeometryCache\Binaries\Win64\FactoryGameSteam-GeometryCache-Win64-Shipping.dll
+C:\Program Files (x86)\Steam\steamapps\common\Satisfactory\Engine\Binaries\Win64\FactoryGameSteam-SoundFieldRendering-Win64-Shipping.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformIsRunningWine>false</PlatformIsRunningWine>
+		<PlatformSupportsWindows11>true</PlatformSupportsWindows11>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<IsUsingBatterySaver>false</IsUsingBatterySaver>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>true</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>false</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>AMD Radeon(TM) Graphics</RHI.AdapterName>
+		<RHI.UserDriverVersion>AMD Software: Adrenalin Edition 26.5.2</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>32.0.21043.10005</RHI.InternalDriverVersion>
+		<RHI.DriverDate>5-12-2026</RHI.DriverDate>
+		<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+		<RHI.GPUVendor>AMD</RHI.GPUVendor>
+		<RHI.DeviceId>1681</RHI.DeviceId>
+		<DeviceProfile.Name>Windows</DeviceProfile.Name>
+		<Platform.AppHasFocus>true</Platform.AppHasFocus>
+		<NumClients>0</NumClients>
+		<ReplicationModel>FGReplicationGraph</ReplicationModel>
+		<RHI.DREDHasBreadcrumbData>false</RHI.DREDHasBreadcrumbData>
+		<RHI.DREDHasPageFaultData>false</RHI.DREDHasPageFaultData>
+	</EngineData>
+	<GameData>
+		<__sentry>{
+&quot;tags&quot;:
+{
+&quot;launcher&quot;: &quot;Steam&quot;,
+&quot;changelist&quot;: 493833,
+&quot;release&quot;: &quot;FactoryGame@1.2.3.0+493833&quot;,
+&quot;configuration&quot;: &quot;Shipping&quot;,
+&quot;target_type&quot;: &quot;Game&quot;,
+&quot;engine_mode&quot;: &quot;Game&quot;,
+&quot;is_sentry_initialized&quot;: &quot;true&quot;,
+&quot;cpu.name&quot;: &quot;AMD Ryzen 7 7735HS with Radeon Graphics &quot;,
+&quot;cpu.cores&quot;: 8,
+&quot;cpu.threads&quot;: 16,
+&quot;physical_memory&quot;: 14,
+&quot;gpu.name&quot;: &quot;AMD Radeon(TM) Graphics&quot;,
+&quot;gpu.vendor&quot;: &quot;Advanced Micro Devices, Inc.&quot;,
+&quot;gpu.driver_version&quot;: &quot;AMD Software: Adrenalin Edition 26.5.2&quot;,
+&quot;is_using_mods&quot;: &quot;true&quot;,
+&quot;language&quot;: &quot;ru&quot;,
+&quot;net_mode&quot;: &quot;ListenServer&quot;
+},
+&quot;release&quot;: &quot;FactoryGame@1.2.3.0+493833&quot;,
+&quot;environment&quot;: &quot;Release&quot;,
+&quot;contexts&quot;:
+{
+&quot;Sentry&quot;:
+{
+&quot;Plugin version&quot;: &quot;1.1.0&quot;
+},
+&quot;gpu&quot;:
+{
+&quot;name&quot;: &quot;AMD Radeon(TM) Graphics&quot;,
+&quot;vendor_name&quot;: &quot;Advanced Micro Devices, Inc.&quot;,
+&quot;driver_version&quot;: &quot;AMD Software: Adrenalin Edition 26.5.2&quot;
+},
+&quot;device&quot;:
+{
+&quot;cpu_description&quot;: &quot;AMD Ryzen 7 7735HS with Radeon Graphics &quot;,
+&quot;number_of_cores&quot;: &quot;8&quot;,
+&quot;number_of_cores_including_hyperthreads&quot;: &quot;16&quot;,
+&quot;physical_memory_size_gb&quot;: &quot;14&quot;
+}
+}
+}</__sentry>
+		<MapName>/Game/FactoryGame/Map/GameLevel01/Persistent_Level</MapName>
+		<PlayerLocation>BugItGo -58290.625585 259527.524616 -3725.467401 0.000000 170.652710 -0.000000</PlayerLocation>
+	</GameData>
+</FGenericCrashContext>
